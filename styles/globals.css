@@ -30,9 +30,10 @@ font-family: 'Volkhov', serif;
   .MAINLOGO{
     display: none;
   }
-  .nav__item:hover {
-    border: 1px solid white;
-    padding: 10px 20px;
+  /* .nav__item:hover {
+  } */
+  .menu_img{
+    display: none;
   }
   .menu {
     position: relative;
@@ -58,17 +59,14 @@ font-family: 'Volkhov', serif;
     /* background: rgb(0, 33, 65); */
   }
   .nav__link {
-    font-family: "Poppins";
-  
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    letter-spacing: 0.084em;
-    opacity: 0.8;
+    font-family: Lato;
+   font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+ line-height: normal;
   }
   .nav__link:hover {
-    color: #b1935e;
+    color: #06b6d4
   }
   .nav__brand {
     text-transform: capitalize;
@@ -84,27 +82,29 @@ font-family: 'Volkhov', serif;
   .nav__menu {
     display: flex;
     align-items: center;
+
     justify-content: space-around;
-    gap: 3rem;
+    gap: rem;
   }
-  .nav__toggler {
-    display: none;
-    
-  }
-  .nav__toggler div {
-    width: 2.5rem;
-    height: 0.2rem;
-    margin: 0.4rem;
-    background: white;
-    transition: 0.2s ease-in;
-  }
-  
+ 
   @media screen and (max-width: 768px) {
     .nav {
       display: flex;
-      justify-content: space-between;
+      
     }
-  
+    .menu_img{
+      display: block;
+    }
+
+   
+    .nav__toggler div {
+      width: 2.5rem;
+      height: 0.2rem;
+      margin: 0.4rem;
+      background: #58a857;
+      transition: 0.2s ease-in;
+    }
+    
     .MAINLOGO{
       display: block;
     }
@@ -142,20 +142,21 @@ font-family: 'Volkhov', serif;
     .itemD {
       margin-top: 10px;
     }
-    .item {
+    /* .item {
       margin-top: 50px;
-    }
+    } */
+
     .nav__menu {
       position: fixed;
       top: 0;
       right: 0;
       height: 100%;
       width: 100vw;
-      padding-bottom: 20px;
-      /* background: rgb(0, 33, 65); */
-      background: black;
+      background: #58a857;
       flex-direction: column;
       justify-content: center;
+      padding-bottom: 20px;
+
       gap: 30px;
       transform: translateX(100%) !important;
       transition: 0.2s ease-in;
@@ -167,7 +168,14 @@ font-family: 'Volkhov', serif;
   }
   
   /* Toggle Icon Animation */
-  
+  .toggle div{
+    width: 2.5rem;
+      height: 0.2rem;
+      margin: 0.4rem;
+      background: white;
+      transition: 0.2s ease-in;
+  }
+
   .toggle .line1 {
     transform: rotate(-45deg) translate(-4px, 5px);
   }
