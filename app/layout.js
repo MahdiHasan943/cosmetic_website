@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
                   <div className='gradient' />
               </div> */}
               
-        <main className='app'>
+        <main className='app mx-auto shadow-lg max-w-[1900px]'>
                    <Nav/>
                   {children}
 

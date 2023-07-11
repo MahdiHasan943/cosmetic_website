@@ -37,7 +37,7 @@ function Nav() {
         </a>
       </li>
 
-      <li className="group  transition-all duration-300 ease-in-out nav__item item nav__item">
+      <li className="group  transition-all duration-300 ease-in-out  item nav__item">
         <a
           href="#Services"
           onClick={() => {
