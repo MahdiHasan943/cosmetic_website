@@ -1,32 +1,37 @@
+'use client'
 import React from 'react'
+import { motion } from 'framer-motion'
+import { footerVariants } from '@/utils/motion'
 
 const Footer = () => {
   return (
-      <div >
-          <div className="py-4 ">
+      <motion.div variants={footerVariants} initial="hidden" whileInView="show">
+          <div  className="py-12 ">
               
               <div className="text-center lg:text-start lg:flex justify-between  gap-4">
-                  <div className="py-3 lg:py-0">
-                      <p className='font-lato '>Menu</p>
+                  <div className="py-6 lg:py-0">
+                      <p className='footerHeadText '>Menu</p>
                       <p className='font-lato '>Home</p>
-                      <p className='font-lato '>About Us</p>
+                      <p className='font-lato py-2 '>About Us</p>
                       <p className='font-lato '>Our Services</p>
-                      <p className='font-lato '>Contact Us</p>
+                      <p className='font-lato py-2'>Contact Us</p>
                   </div>
                   <div className="">
-                      <p className='text-center font-lato '>Services</p>
-                      <div className="lg:flex text-center lg:text-start items-center gap-4">
+                      <p className='text-center footerHeadText'>Services</p>
+                      <div className="lg:flex text-center lg:text-start items-center gap-10">
                           <div className="">
                               <p className='font-lato '>UK Responsible Person</p>
                               <p className='font-lato '>Cosmetic Product Safety <br /> Report</p> 
                               <p className='font-lato '>INCI Label Preparation <br /> Or Label Review</p>
                               <p className='font-lato '>Packaging</p>
                           </div>
-                          <div className="py-3 lg:py-0">
+                          <div className="py-6 lg:py-0">
                           <p className='font-lato '>Physical Test</p>
                               <p className='font-lato '>Knowledge Gap Analysis</p> 
+                              <br />
                              
                               <p className='font-lato '>Other Safety Assessment</p>
+                              <br />
                               <p className='font-lato '>Product Information File</p>
                           </div>
                           
@@ -34,25 +39,25 @@ const Footer = () => {
                   </div>
 
                   <div className="">
-                      <p className='font-lato '>Contact us</p>
+                      <p className='footerHeadText'>Contact us</p>
                       <div className="">
-                         <img className='inline' src="" alt="" /> <span className='font-lato '>00 44 (0)  7539 466 779</span>
+                         <img className='inline' src="/images/call.svg" alt="call" /> <span className='font-lato '>00 44 (0)  7539 466 779</span>
                       </div>
-                      <div className="">
-                      <img className='inline' src="" alt="" /> <span className='font-lato '>enquiries@iwocpssl.com <br /> Leicester, United Kingdom</span>
+                      <div className="py-5">
+                      <img className='inline' src="/images/mail.svg" alt="mail" /> <span className='font-lato '>enquiries@iwocpssl.com <br /> Leicester, United Kingdom</span>
 
                       </div>
                       <div className="">
-                      <img className='inline' src="" alt="" /> <span className='font-lato '>Cookie Policy</span>
+                      <img className='inline' src="/images/mail.svg" alt="mail" /> <span className='font-lato '>Cookie Policy</span>
 
                       </div>
 
                   </div>
 
-                  <div className="py-3 lg:py-0">
-                      <p className='font-lato '>Our Hours</p>
+                  <div className="py-6 lg:py-0">
+                      <p className='footerHeadText'>Our Hours</p>
                       <p className='font-lato '>MON-SAT 08:00 – 20:00SUN  <br /> 10:00 – 17:00</p>
-                      <p className='font-lato '>Follow Us</p>
+                      <p className='footerHeadText mt-4 '>Follow Us</p>
                       <div className="flex justify-center gap-3">
                           <img className='' src="/images/fb.svg" alt="fb" />
                           <img className='' src="/images/twitter.svg" alt="twitter" />
@@ -69,10 +74,10 @@ const Footer = () => {
                   
            </div>
           </div>
-          <div className="py-5 fBorder ">
-              <p className='font-volkhov text-center'>©2023 - Copyright IWO Cosmetic Product Safety Solution Ltd. </p>
+          <div className="py-8 fBorder ">
+              <p className='font-volkhov leading-[20px] tracking-wider text-center'>©2023 - Copyright IWO Cosmetic Product Safety Solution Ltd. </p>
           </div>
-    </div>
+    </motion.div>
   )
 }
 

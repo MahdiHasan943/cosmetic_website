@@ -30,7 +30,7 @@ module.exports = {
       fontFamily: {
         lato: ['Lato', 'sans-serif'],
         volkhov: ['Volkhov', 'serif'],
-        volkhov: ['Poppins', 'sans-serif'],
+        popping: ['Poppins', 'sans-serif'],
       },
       colors: {
         'primary-orange': '#FF5722',

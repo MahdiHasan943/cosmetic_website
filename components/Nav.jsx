@@ -1,6 +1,8 @@
 "use client"
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
+import { navVariants } from "@/utils/motion";
 function Nav() {
   const [active, setActive] = useState("nav__menu");
   const [icon, setIcon] = useState("nav__toggler");
@@ -105,7 +107,7 @@ function Nav() {
   );
 
   return (
-    <nav className={`sm:px-16 px-6 py-3 shadow-none w-[100vw] nav`}>
+    <motion.nav variants={navVariants} initial="hidden" whileInView='show' className={`sm:px-16 px-6 py-3 shadow-none w-[100vw] nav`}>
       <div className={`flex w-full items-center  md:justify-between `}>
         <div className="flex overflow-hidden  items-center">
           <a
@@ -160,7 +162,7 @@ function Nav() {
         <div className="line2"></div>
         <div className="line3"></div>
       </div>
-    </nav>
+    </motion.nav>
   );
 }
 
