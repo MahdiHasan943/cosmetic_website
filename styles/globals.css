@@ -237,3 +237,11 @@ font-weight: 300;
 line-height: 32px;
 }
 /* hero */
+/* review */
+.slidecard{
+  border-radius: 16px;
+background: #fff;
+margin: auto;
+box-shadow: 4px 3px 28px 12px rgba(0, 0, 0, 0.03);
+}
+/* review */
