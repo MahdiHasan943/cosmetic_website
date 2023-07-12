@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div id='Contact'>
+    <div className='py-10' id='Contact'>
       <div className="mx-auto  contactMain w-full h-auto py-10   xl:w-[1240px]">
           <p className='font-popping py-10 text-[33px] leading-[54px] text-center font-bold text-[#333333] '>Contact Us</p>
         <form action="">
