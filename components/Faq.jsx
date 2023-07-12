@@ -5,7 +5,7 @@ import { ChevronUpIcon } from "@heroicons/react/20/solid";
 
 const Faq = () => {
   return (
-    <div className="py-10">
+    <div id="FAQs" className="py-10">
       <h2 className="text-center font-popping  text-[26px] leading-[50px] text-[#333333] font-bold">
         Help/FAQ
       </h2>

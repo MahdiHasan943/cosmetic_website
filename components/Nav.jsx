@@ -24,7 +24,7 @@ function Nav() {
     <React.Fragment>
       <li className=" group  transition-all duration-300 ease-in-out nav__item item">
         <a
-          href="#hero"
+          href="#"
           onClick={() => {
             navToggle();
             setColor(true);

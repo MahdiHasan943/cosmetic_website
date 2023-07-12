@@ -11,10 +11,10 @@ const Footer = () => {
               <div className="text-center lg:text-start lg:flex justify-between  gap-4">
                   <div className="py-6 lg:py-0">
                       <p className='footerHeadText '>Menu</p>
-                      <p className='font-lato '>Home</p>
-                      <p className='font-lato py-2 '>About Us</p>
-                      <p className='font-lato '>Our Services</p>
-                      <p className='font-lato py-2'>Contact Us</p>
+                      <a href="#"><p className='font-lato '>Home</p> </a>
+                      <a href="#About"><p className='font-lato py-2 '>About Us</p></a> 
+                     <a href="#Services"><p className='font-lato '>Our Services</p></a> 
+                      <a href="#Contact"><p className='font-lato py-2'>Contact Us</p></a> 
                   </div>
                   <div className="">
                       <p className='text-center footerHeadText'>Services</p>
