@@ -37,7 +37,7 @@ const About = () => {
       <div className="bg-[#F6F6F6] px-4 mt-5 sm:px-8 py-20">
 
         <div className="xl:flex justify-center gap-20">
-          <div className="my-5 xl:my-0 bg-white rounded-lg py-14 px-20">
+          <div className="my-5 xl:my-0 bg-white rounded-lg py-14 gm:px-20">
             <p className="text-center font-popping text-[26px] font-bold mb-5">Packaging Sample</p>
           <div className="sm:flex   gap-8 items-center">
           <img className="mx-auto" src="/images/PackagingSlideL.webp" alt="packging" />
@@ -47,7 +47,7 @@ const About = () => {
       </div>
         {/* 2 */}
       
-        <div className="bg-white overflow-hidden rounded-lg py-14 px-20">
+        <div className="bg-white overflow-hidden rounded-lg py-14 gm:px-20">
             <p className="text-center font-popping text-[26px] font-bold mb-5">Other Assessment</p>
           <div className="sm:flex   gap-8 items-center">
           <img className="mx-auto" src="/images/packingSlideR.webp" alt="packging" />
