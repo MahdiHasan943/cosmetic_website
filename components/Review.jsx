@@ -42,10 +42,10 @@ const Review = () => {
             clickable: true,
           }}
           modules={[Pagination, Navigation]}
-          className="mySwiper h-[230px]  2xl:w-[80%] mx-auto"
+          className="mySwiper h-[300px] exsm:h-[230px]  2xl:w-[80%] mx-auto"
         >
           <SwiperSlide>
-            <div className="exsm:w-[353px] py-6 px-5  h-[215px] slidecard">
+            <div className="exsm:w-[353px] py-6 px-5  exsm:h-[215px] slidecard">
               <div className="flex items-center justify-center gap-4">
                 <img className="inline" src="/images/ellip.webp" alt="" />
                 <p className="text-[#313131] font-lato font-semibold">
@@ -74,7 +74,7 @@ const Review = () => {
                   </SwiperSlide>
                   {/* 2 */}
           <SwiperSlide>
-            <div className="exsm:w-[353px] py-6 px-5  h-[215px] slidecard">
+            <div className="exsm:w-[353px] py-6 px-5   exsm:h-[215px] slidecard">
               <div className="flex items-center justify-center gap-4">
                 <img className="inline" src="/images/Ellipse2.webp" alt="" />
                 <p className="text-[#313131] font-lato font-semibold">
@@ -103,7 +103,7 @@ const Review = () => {
                   </SwiperSlide>
                   {/* 3 */}
                   <SwiperSlide>
-            <div className="exsm:w-[353px] py-6 px-5  h-[215px] slidecard">
+            <div className="exsm:w-[353px] py-6 px-5 exsm:h-[215px] slidecard">
               <div className="flex items-center justify-center gap-4">
                 <img className="inline" src="/images/Ellipse3.webp" alt="" />
                 <p className="text-[#313131] font-lato font-semibold">
@@ -132,7 +132,7 @@ const Review = () => {
           </SwiperSlide>
                   {/* 4 */}
                   <SwiperSlide>
-            <div className="exsm:w-[353px] py-6 px-5  h-[215px] slidecard">
+            <div className="exsm:w-[353px] py-6 px-5  exsm:h-[215px] slidecard">
               <div className="flex items-center justify-center gap-4">
                 <img className="inline" src="/images/ellip.webp" alt="" />
                 <p className="text-[#313131] font-lato font-semibold">
