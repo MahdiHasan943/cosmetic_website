@@ -1,18 +1,20 @@
+"use client"
 import React from "react";
-
+import { motion } from "framer-motion";
+import { textVariant2 } from "@/utils/motion";
 const Hero = () => {
   return (
-    <div className="lg:flex justify-between 2xl:justify-around gap-10 items-center">
+    <motion.div variants={textVariant2} initial="hidden" whileInView="show" className="lg:flex justify-between 2xl:justify-around gap-10 items-center">
       <div className="">
-        <h1 className="heroTitle font-volkhov">
+        <motion.h1 variants={textVariant2} initial="hidden" whileInView="show" className="heroTitle font-volkhov">
           IWO Cosmetic <br className="hidden sm:block" /> Product Safety
-        </h1>
-        <p className="font-lato herosubT">
+        </motion.h1>
+        <motion.p variants={textVariant2} initial="hidden" whileInView="show" className="font-lato herosubT">
           is a consultancy business with specialism mainly{" "}
           <br className="hidden sm:block" /> in the fields of cosmetics and
           chemical consumer <br className="hidden sm:block" />
           products regulation and safety.
-              </p>
+              </motion.p>
               <div className="py-6  relative">
                   <button className="absolute font-lato bg-[#313131] text-white rounded-full py-3 px-8">Get in touch</button>
                   <div className="ml-10 gm:flex   items-center gap-4">
@@ -31,7 +33,7 @@ const Hero = () => {
 
               </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

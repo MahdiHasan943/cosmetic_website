@@ -2,7 +2,8 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { motion } from "framer-motion";
+import { textVariant2 } from "@/utils/motion";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,10 +15,10 @@ import { Pagination, Navigation } from "swiper/modules";
 const Review = () => {
   return (
     <>
-      <div className="py-[20px] ">
-        <p className="py-10 font-popping text-[#333] text-center text-[33px] font-bold">
+      <div className="mb-10 py-10 ">
+        <motion.p variants={textVariant2} initial="hidden" whileInView="show" className="py-10 font-popping text-[#333] text-center text-[33px] font-bold">
           Customer Reviews
-        </p>
+        </motion.p>
         <Swiper
           breakpoints={{
             640: {
@@ -41,7 +42,7 @@ const Review = () => {
             clickable: true,
           }}
           modules={[Pagination, Navigation]}
-          className="mySwiper 2xl:w-[80%] mx-auto"
+          className="mySwiper h-[230px]  2xl:w-[80%] mx-auto"
         >
           <SwiperSlide>
             <div className="exsm:w-[353px] py-6 px-5  h-[215px] slidecard">
