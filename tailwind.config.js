@@ -29,7 +29,7 @@ module.exports = {
         // => @media (min-width: 1536px) { ... }
       },
       fontFamily: {
-        lato: ['Lato', 'sans-serif'],
+        lato: ['Poppins', 'sans-serif'],
         volkhov: ['Volkhov', 'serif'],
         popping: ['Poppins', 'sans-serif'],
       },

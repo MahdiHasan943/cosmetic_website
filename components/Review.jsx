@@ -42,13 +42,13 @@ const Review = () => {
             clickable: true,
           }}
           modules={[Pagination, Navigation]}
-          className="mySwiper h-[300px] exsm:h-[230px]  2xl:w-[80%] mx-auto"
+          className="mySwiper h-[400px] exsm:h-[400px]  2xl:w-[80%] mx-auto"
         >
           <SwiperSlide>
-            <div className="exsm:w-[353px] py-6 px-5  exsm:h-[215px] slidecard">
+            <div className="exsm:w-[353px] py-6 px-5  exsm:h-[300px] slidecard">
               <div className="flex items-center justify-center gap-4">
                 <img className="inline" src="/images/ellip.webp" alt="" />
-                <p className="text-[#313131] font-lato font-semibold">
+                <p className="text-[#313131] text-[20px] font-lato font-semibold">
                   J.James
                 </p>
                 <div className="flex  items-center gap-2">
@@ -60,24 +60,24 @@ const Review = () => {
                 </div>
               </div>
               <div className="flex py-2 gap-4 pr-4 justify-end items-center">
-                <p className="text-[#313131] font-lato">On</p>
+                <p className="text-[#313131] text-[18px] font-lato">On</p>
                 <img src="/images/fb2.webp" alt="" />
                 <img src="/images/goggl2.webp" alt="" />
                 <img src="/images/fresh.webp" alt="" />
               </div>
-              <p className="text-[#06040A] py-4 font-lato text-center leading-[22px] text-[13px]">
-                Lorem ipsum dolor sit amet elit, consectetur adipiscing <br /> elit
-                cursus imperdiet ementum Quam <br /> aliquam. Quam vel aliquam sit
+              <p className="text-[#06040A] py-4 font-lato text-center leading-[30px] text-[16px]">
+                Lorem ipsum dolor sit amet elit, consectetur adipiscing  elit
+                cursus imperdiet ementum Quam  aliquam. Quam vel aliquam sit
                 vulputate.
               </p>
             </div>
                   </SwiperSlide>
                   {/* 2 */}
           <SwiperSlide>
-            <div className="exsm:w-[353px] py-6 px-5   exsm:h-[215px] slidecard">
+            <div className="exsm:w-[353px] py-6 px-5   exsm:h-[300px] slidecard">
               <div className="flex items-center justify-center gap-4">
                 <img className="inline" src="/images/Ellipse2.webp" alt="" />
-                <p className="text-[#313131] font-lato font-semibold">
+                <p className="text-[#313131] text-[20px] font-lato font-semibold">
                   J.James
                 </p>
                 <div className="flex  items-center gap-2">
@@ -89,24 +89,24 @@ const Review = () => {
                 </div>
               </div>
               <div className="flex py-2 gap-4 pr-4 justify-end items-center">
-                <p className="text-[#313131] font-lato">On</p>
+                <p className="text-[#313131] text-[18px] font-lato">On</p>
                 <img src="/images/fb2.webp" alt="" />
                 <img src="/images/goggl2.webp" alt="" />
                 <img src="/images/fresh.webp" alt="" />
               </div>
-              <p className="text-[#06040A] py-4 font-lato text-center leading-[22px] text-[13px]">
-                Lorem ipsum dolor sit amet elit, consectetur adipiscing <br /> elit
-                cursus imperdiet ementum Quam <br /> aliquam. Quam vel aliquam sit
+              <p className="text-[#06040A] py-4 font-lato text-center leading-[30px] text-[16px]">
+                Lorem ipsum dolor sit amet elit, consectetur adipiscing  elit
+                cursus imperdiet ementum Quam aliquam. Quam vel aliquam sit
                 vulputate.
               </p>
             </div>
                   </SwiperSlide>
                   {/* 3 */}
                   <SwiperSlide>
-            <div className="exsm:w-[353px] py-6 px-5 exsm:h-[215px] slidecard">
+            <div className="exsm:w-[353px] py-6 px-5 exsm:h-[300px] slidecard">
               <div className="flex items-center justify-center gap-4">
                 <img className="inline" src="/images/Ellipse3.webp" alt="" />
-                <p className="text-[#313131] font-lato font-semibold">
+                <p className="text-[#313131] text-[20px] font-lato font-semibold">
                   J.James
                 </p>
                 <div className="flex  items-center gap-2">
@@ -118,24 +118,24 @@ const Review = () => {
                 </div>
               </div>
               <div className="flex py-2 gap-4 pr-4 justify-end items-center">
-                <p className="text-[#313131] font-lato">On</p>
+                <p className="text-[#313131] text-[18px] font-lato">On</p>
                 <img src="/images/fb2.webp" alt="" />
                 <img src="/images/goggl2.webp" alt="" />
                 <img src="/images/fresh.webp" alt="" />
               </div>
-              <p className="text-[#06040A] py-4 font-lato text-center leading-[22px] text-[13px]">
-                Lorem ipsum dolor sit amet elit, consectetur adipiscing <br /> elit
-                cursus imperdiet ementum Quam <br /> aliquam. Quam vel aliquam sit
+              <p className="text-[#06040A] py-4 font-lato text-center leading-[30px] text-[16px]">
+                Lorem ipsum dolor sit amet elit, consectetur adipiscing  elit
+                cursus imperdiet ementum Quam aliquam. Quam vel aliquam sit
                 vulputate.
               </p>
             </div>
           </SwiperSlide>
                   {/* 4 */}
                   <SwiperSlide>
-            <div className="exsm:w-[353px] py-6 px-5  exsm:h-[215px] slidecard">
+            <div className="exsm:w-[353px] py-6 px-5  exsm:h-[300px] slidecard">
               <div className="flex items-center justify-center gap-4">
                 <img className="inline" src="/images/ellip.webp" alt="" />
-                <p className="text-[#313131] font-lato font-semibold">
+                <p className="text-[#313131] text-[20px] font-lato font-semibold">
                   J.James
                 </p>
                 <div className="flex  items-center gap-2">
@@ -147,14 +147,14 @@ const Review = () => {
                 </div>
               </div>
               <div className="flex py-2 gap-4 pr-4 justify-end items-center">
-                <p className="text-[#313131] font-lato">On</p>
+                <p className="text-[#313131] text-[18px] font-lato">On</p>
                 <img src="/images/fb2.webp" alt="" />
                 <img src="/images/goggl2.webp" alt="" />
                 <img src="/images/fresh.webp" alt="" />
               </div>
-              <p className="text-[#06040A] py-4 font-lato text-center leading-[22px] text-[13px]">
-                Lorem ipsum dolor sit amet elit, consectetur adipiscing <br /> elit
-                cursus imperdiet ementum Quam <br /> aliquam. Quam vel aliquam sit
+              <p className="text-[#06040A] py-4 font-lato text-center leading-[30px] text-[16px]">
+                Lorem ipsum dolor sit amet elit, consectetur adipiscing  elit
+                cursus imperdiet ementum Quam  aliquam. Quam vel aliquam sit
                 vulputate.
               </p>
             </div>
