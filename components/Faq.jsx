@@ -16,7 +16,7 @@ const Faq = () => {
 
       <div className="w-full  px-4 pt-16">
         <div className="mx-auto text-center lg:w-[50%] rounded-2xl bg-white p-2">
-          <Disclosure>
+          <Disclosure defaultOpen>
             {({ open }) => (
               <>
                 <Disclosure.Button className="flex justify-center w-full ">
@@ -78,7 +78,7 @@ const Faq = () => {
               </>
             )}
           </Disclosure>
-          <Disclosure as="div" className="mt-10">
+          <Disclosure  as="div" className="mt-10">
             {({ open }) => (
               <>
                 <Disclosure.Button className="flex justify-center  w-full ">

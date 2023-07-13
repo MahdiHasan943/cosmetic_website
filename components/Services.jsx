@@ -115,13 +115,13 @@ const Services = () => {
 
       <div className="w-full mx-auto   ">
         <Tab.Group>
-          <Tab.List className="flex space-x-1 mx-auto focus:border-0 sm:w-[50%] justify-center focus:outline-none  sm:p-1">
+          <Tab.List className="flex space-x-1  mx-auto focus:border-0 sm:w-[60%] md:w-[50%] justify-center focus:outline-none  sm:p-1">
             {Object.keys(categories).map((category) => (
               <Tab
                 key={category}
                 className={({ selected }) =>
                   classNames(
-                    "w-[50%] mx-auto rounded-lg py-2.5  text-sm font-medium focus:border-0 focus:outline-none leading-5 font-lato text-[#333]",
+                    "w-[50%] mx-auto rounded-lg py-2.5 exsm:px-1  text-sm font-medium focus:border-0 focus:outline-none leading-5 font-lato text-[#333]",
                     "  focus:outline-none ",
                     selected
                       ? "bg-white shadow underline decoration-[#007aff] underline-offset-8  focus:border-0 focus:outline-none "
@@ -234,7 +234,7 @@ const Services = () => {
                           style={{ backgroundImage: `url(${post.imgOne})` }}
                         >
                           <div className="flex justify-center py-2">
-                            <h1 className="text-[#333] pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 sm:px-4 text-[20px] font-bold">
+                            <h1 className="text-[#333] pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[20px] font-bold">
                               {post.title}
                             </h1>
                           </div>
@@ -269,7 +269,7 @@ const Services = () => {
                           style={{ backgroundImage: `url(${post.imgTwo})` }}
                         >
                           <div className="flex justify-center py-2">
-                            <h1 className="text-[#333] pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 sm:px-4 text-[20px] font-bold">
+                            <h1 className="text-[#333] pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[20px] font-bold">
                               {post.titleTwo}
                             </h1>
                           </div>
