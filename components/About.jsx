@@ -35,18 +35,20 @@ and regulatory requirements.
         </div>
         <div className="flex justify-center">
           <div className="mx-auto  ">
-            <img
-              className="inline w-full md:w-auto h-[280px] md:absolute  "
+              <div className="bg-[#eceff4] rounded-xl mb-5 h-[172px] gm:h-[240px] md:h-0 sm:bg-none ">
+              <img
+              className=" mx-auto   h-full   md:w-auto md:h-[280px] md:absolute  "
               src="/images/AboutFace.webp"
               alt=""
             />
-            <img className="inline w-full md:w-auto " src="/images/AboutFace2.webp" alt="" />
+            </div>
+            <img className="inline  md:w-auto " src="/images/AboutFace2.webp" alt="" />
           </div>
         </div>
       </div>
       
       </div>
-      <div className="bg-[#F6F6F6] px-4 mt-5 sm:px-8 py-20">
+      <div className="bg-[#F6F6F6] rounded-xl px-4 mt-5 sm:px-8 py-20">
 
         <div className="xl:flex justify-center gap-20">
           <div className="my-5 xl:my-0 bg-white rounded-lg py-14 gm:px-20">

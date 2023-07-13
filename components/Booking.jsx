@@ -2,7 +2,7 @@ import React from 'react'
 
 const Booking = () => {
   return (
-    <div className='bg-[#F6F6F6] px-4 overflow-hidden mt-5 sm:px-8 py-20'>
+    <div className='bg-[#F6F6F6] rounded-xl px-4 overflow-hidden mt-5 sm:px-8 py-20'>
     
       <div className="lg:flex w-full justify-center items-center gap-5 lg:gap-20">
         {/* 1 */}
