@@ -8,13 +8,13 @@ const Contact = () => {
         <form action="">
           
           <div className="mx-auto text-center px-6 w-full justify-center md:flex gap-6 items-center">
-            <input placeholder='Name' className='my-4 md:my-0 w-full sm:w-auto sm:px-20   cField' type="text" />
-            <input placeholder='Email' className='cField w-full sm:w-auto sm:px-20  ' type="email" />
+            <input placeholder='Name' className='my-4 md:my-0 w-full sm:w-auto px-3  sm:px-20   cField' type="text" />
+            <input placeholder='Email' className='cField w-full sm:w-auto px-3  sm:px-20  ' type="email" />
 
           </div>
           <div className="mx-auto px-6 text-center md:my-5 w-full justify-center md:flex gap-6 items-center">
-            <input placeholder='Service Interest' className='my-4 w-full sm:w-auto sm:px-20  md:my-0 cField' type="text" />
-            <input placeholder='Message' className=' cField w-full sm:w-auto sm:px-20  ' type="text" />
+            <input placeholder='Service Interest' className='my-4 w-full sm:w-auto px-3 sm:px-20  md:my-0 cField' type="text" />
+            <input placeholder='Message' className=' cField w-full sm:w-auto px-3  sm:px-20  ' type="text" />
 
           </div>
           <div className="text-center mx-auto ">
