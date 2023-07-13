@@ -42,7 +42,7 @@ const Review = () => {
             clickable: true,
           }}
           modules={[Pagination, Navigation]}
-          className="mySwiper h-[400px] exsm:h-[400px]  2xl:w-[80%] mx-auto"
+          className="mySwiper h-[400px] exsm:h-[400px]   2xl:w-[80%] mx-auto"
         >
           <SwiperSlide>
             <div className="exsm:w-[353px] py-6 px-5  exsm:h-[300px] slidecard">

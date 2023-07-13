@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { textVariant2 } from "@/utils/motion";
 const Hero = () => {
   return (
-    <motion.div id="#hero" variants={textVariant2} initial="hidden" whileInView="show" className="lg:flex justify-between 2xl:justify-around gap-10 items-center">
+    <motion.div id="#hero" variants={textVariant2} initial="hidden" whileInView="show" className="lg:flex overflow-hidden justify-between 2xl:justify-around gap-10 items-center">
       <div className="">
         <motion.h1 variants={textVariant2} initial="hidden" whileInView="show" className="heroTitle font-volkhov">
           IWO Cosmetic <br className="hidden sm:block" /> Product Safety

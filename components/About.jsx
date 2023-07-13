@@ -15,7 +15,19 @@ const About = () => {
             personal care and chemical consumer goods safety <br className='hidden sm:block'/> and regulatory
             company with a global reach.
           </p>
-          <img className="mt-5" src="/images/aboutText.png" alt="" />
+            <p className="font-popping text-[#333333] text-[22px] lg:text-[16px] 2xl:text-[22px] leading-[30px]  py-4">
+            The company was founded in 2015 and has experiences in the field that <br className='hidden lg:block'/> 
+spans decades. Based in the United Kingdom in Great Britain (UK / GB) and <br className='hidden lg:block'/> 
+from wherever you are in the world, Iwo CPSS Ltd is a Responsible Person that <br className='hidden lg:block'/>  
+can help you market your products in the UK / GB and in the European Union <br className='hidden lg:block'/> 
+(EU). Iwo CPSS Ltd has its main speciality in the fields of cosmetic products <br className='hidden lg:block'/> 
+safety and regulation. This includes producing safety assessment reports to <br className='hidden lg:block'/> 
+various world regulatory regimes such as ASEAN, Canada, Gulf States, USA, <br className='hidden lg:block'/> 
+etc. Hence if you are a manufacturer, an importer or a distributor of cosmetic <br className='hidden lg:block'/>  
+products, looking to sell your products in the UK / GB and in the EU, or <br className='hidden lg:block'/> 
+elsewhere, contact Iwo CPSS Ltd to assist you in meeting your product safety <br className='hidden lg:block'/> 
+and regulatory requirements.
+          </p>
           <button className="bg-[#D5D5D5] mt-4 mb-10 py-3 px-16  gm:px-20 relative rounded-full">
             <img className="absolute left-3  top-2 " src="/images/whatApp.svg" alt="" />
             <span className="font-lato text-[15px]">FREE CONSULTATION</span>
