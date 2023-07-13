@@ -288,7 +288,6 @@ background: var(--white, #FFF);
   flex: 0 1 auto;
   max-width: 56.2rem;
   overflow: hidden;
-  padding: 5rem 6rem;
   position: absolute;
   text-align: left;
   transform: translateX(0);
