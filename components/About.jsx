@@ -7,8 +7,8 @@ const About = () => {
       <h2 className="font-popping py-10 text-[36px] leading-[60px] text-center font-bold text-[#333333] ">
         About Us
       </h2>
-      <div className="mx-auto  lg:flex items-center justify-between gap-6">
-        <div className="mx-auto">
+      <div className="mx-auto  lg:flex items-center justify-center gap-6">
+        <div className="">
           <p className="font-popping text-[#333333] text-[22px] leading-[30px]  ">
             <span className="font-bold">Iwo Cosmetic Products Safety Solutions Ltd.</span> (abbreviated to <span className="font-bold">Iwo CPSS
             Ltd.</span> ) <br className="hidden sm:block" /> is a cosmetic product,
