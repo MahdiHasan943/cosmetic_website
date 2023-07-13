@@ -10,14 +10,14 @@ const Footer = () => {
               
               <div className="text-center lg:text-start lg:flex justify-between  gap-4">
                   <div className="py-10 lg:py-0">
-                      <p className='footerHeadText '>Menu</p>
+                      <p className='footerHeadText font-lato'>Menu</p>
                       <a href="#"><p className='font-lato text-[20px]'>Home</p> </a>
                       <a href="#About"><p className='font-lato py-2 text-[20px] '>About Us</p></a> 
                      <a href="#Services"><p className='font-lato text-[20px] '>Our Services</p></a> 
                       <a href="#Contact"><p className='font-lato py-2 text-[20px] '>Contact Us</p></a> 
                   </div>
                   <div className="">
-                      <p className='text-center footerHeadText'>Services</p>
+                      <p className='text-center footerHeadText font-lato'>Services</p>
                       <div className="lg:flex text-center lg:text-start items-center gap-10">
                           <div className="">
                               <p className='font-lato text-[20px] '>UK Responsible Person</p>
@@ -39,7 +39,7 @@ const Footer = () => {
                   </div>
 
                   <div className="">
-                      <p className='footerHeadText'>Contact us</p>
+                      <p className='footerHeadText font-lato'>Contact us</p>
                       <div className="">
                          <img className='inline' src="/images/call.svg" alt="call" /> <span className='font-lato text-[20px] '>00 44 (0)  7539 466 779</span>
                       </div>
@@ -55,9 +55,9 @@ const Footer = () => {
                   </div>
 
                   <div className="py-10 lg:py-0">
-                      <p className='footerHeadText'>Our Hours</p>
+                      <p className='footerHeadText font-lato'>Our Hours</p>
                       <p className='font-lato text-[20px] '>MON-SAT 08:00 – 20:00SUN  <br /> 10:00 – 17:00</p>
-                      <p className='footerHeadText mt-4 '>Follow Us</p>
+                      <p className='footerHeadText mt-4 font-lato'>Follow us</p>
                       <div className="flex justify-center gap-3">
                           <img className='' src="/images/fb.svg" alt="fb" />
                           <img className='' src="/images/twitter.svg" alt="twitter" />

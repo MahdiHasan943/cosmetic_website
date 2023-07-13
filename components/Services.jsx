@@ -50,14 +50,38 @@ const Services = () => {
     ],
     Information_File: [
       {
+        // id: 1,
+        // title: "Personal Information File",
+        // titleTwo: "INCI Label Preparation",
+        // date: "Jan 7",
+        // commentCount: 29,
+        // shareCount: 16,
+        // imgOne: "/images/serviceImage6.webp",
+        // imgTwo: "/images/serviceImage7.webp",
         id: 1,
-        title: "Personal Information File",
-        titleTwo: "INCI Label Preparation",
-        date: "Jan 7",
-        commentCount: 29,
-        shareCount: 16,
-        imgOne: "/images/serviceImage6.webp",
-        imgTwo: "/images/serviceImage7.webp",
+        title: "UK Responsible Person",
+
+
+        titleTwo: "Cosmetic Product Safety Report",
+        subOne: " DEFINITION OF A RESPONSIBLE PERSON",
+        subTwo: "UK / GB CPSR, PIF, Label, etc",
+        detailsOne: " A Responsible Person is a legal or natural persondesignated with an address in the UK (Great Britain  – England, Scotland and Wales) (or EU Community). For each cosmetic product placed on the market, the Responsible Person shall ensure compliance with the relevant obligations set out in the cosmetics Regulation.", detailsTwo: "",
+        detailsTwo: "        Iwo Cosmetic Products Safety Solutions Ltd. produces                            Cosmetic Product Safety Reports (CPSR) PIF, INCI                            labels, label review, etc, to comply with the UK /                         GB market.",
+        mtOne:"     UK RESPONSIBLE PERSON  ",
+        mDOne: "Iwo Cosmetic Products Safety Solutions Ltd. is a Responsible Person (RP) for both the United Kingdom       (UK) / Great Britain (GB) and non-UK / GB        manufacturers, importers or distributors. As a UK       RP, Iwo Cosmetic Products Safety Solutions Ltd.        notifies cosmetic products using the UK Submit        Cosmetic Product Notification (SCPN) Portal.",
+        mDTwo: " Iwo Cosmetic Products Safety Solutions Ltd.collaborates collaborates with colleagues in the EU to produce EU compliant CPSR, PIF, INCI labels, Label reviews, etc, to comply with the EU market.",
+        mTTwo:"EU CPSR, PIF, Label, etc",
+        lDOne: "Iwo Cosmetic Products Safety Solutions Ltd.collaborates with colleagues as Responsible Persons (RP) in Europe for notification of cosmetic products  via the Cosmetic Product Notification Portal (CPNP) for the EU market.",
+        lTOne: "                            EU RESPONSIBLE PERSON        ",
+        lTTwo:"                            WORLD REGULATORY COSMETIC SAFETY REPORTS        ",
+        
+        lDTwo:"Iwo Cosmetic Products Safety Solutions Ltd. also produces cosmetic safety assessment reports for other world regulatory regimes (e.g. ASEAN, CANADA,SASO /GULF STATES, USA, etc.).",
+        
+        date: "5h ago",
+        commentCount: 5,
+        shareCount: 2,
+        imgOne: "/images/serviceImage1.webp",
+        imgTwo: "/images/serviceImage2.webp",
       },
       // {
       //   id: 2,
@@ -70,14 +94,38 @@ const Services = () => {
     ],
     Assessment: [
       {
+        // id: 1,
+        // title: "Other Safety Assessment        ",
+        // titleTwo: "Physical Testing",
+        // date: "2d ago",
+        // commentCount: 9,
+        // shareCount: 5,
+        // imgOne: "/images/serviceImage5.webp",
+        // imgTwo: "/images/serviceImage8.webp",
         id: 1,
-        title: "Other Safety Assessment        ",
-        titleTwo: "Physical Testing",
-        date: "2d ago",
-        commentCount: 9,
-        shareCount: 5,
-        imgOne: "/images/serviceImage5.webp",
-        imgTwo: "/images/serviceImage8.webp",
+        title: "UK Responsible Person",
+
+
+        titleTwo: "Cosmetic Product Safety Report",
+        subOne: " DEFINITION OF A RESPONSIBLE PERSON",
+        subTwo: "UK / GB CPSR, PIF, Label, etc",
+        detailsOne: " A Responsible Person is a legal or natural persondesignated with an address in the UK (Great Britain  – England, Scotland and Wales) (or EU Community). For each cosmetic product placed on the market, the Responsible Person shall ensure compliance with the relevant obligations set out in the cosmetics Regulation.", detailsTwo: "",
+        detailsTwo: "        Iwo Cosmetic Products Safety Solutions Ltd. produces                            Cosmetic Product Safety Reports (CPSR) PIF, INCI                            labels, label review, etc, to comply with the UK /                         GB market.",
+        mtOne:"     UK RESPONSIBLE PERSON  ",
+        mDOne: "Iwo Cosmetic Products Safety Solutions Ltd. is a Responsible Person (RP) for both the United Kingdom       (UK) / Great Britain (GB) and non-UK / GB        manufacturers, importers or distributors. As a UK       RP, Iwo Cosmetic Products Safety Solutions Ltd.        notifies cosmetic products using the UK Submit        Cosmetic Product Notification (SCPN) Portal.",
+        mDTwo: " Iwo Cosmetic Products Safety Solutions Ltd.collaborates collaborates with colleagues in the EU to produce EU compliant CPSR, PIF, INCI labels, Label reviews, etc, to comply with the EU market.",
+        mTTwo:"EU CPSR, PIF, Label, etc",
+        lDOne: "Iwo Cosmetic Products Safety Solutions Ltd.collaborates with colleagues as Responsible Persons (RP) in Europe for notification of cosmetic products  via the Cosmetic Product Notification Portal (CPNP) for the EU market.",
+        lTOne: "                            EU RESPONSIBLE PERSON        ",
+        lTTwo:"                            WORLD REGULATORY COSMETIC SAFETY REPORTS        ",
+        
+        lDTwo:"Iwo Cosmetic Products Safety Solutions Ltd. also produces cosmetic safety assessment reports for other world regulatory regimes (e.g. ASEAN, CANADA,SASO /GULF STATES, USA, etc.).",
+        
+        date: "5h ago",
+        commentCount: 5,
+        shareCount: 2,
+        imgOne: "/images/serviceImage1.webp",
+        imgTwo: "/images/serviceImage2.webp",
       },
       // {
       //   id: 2,
@@ -90,14 +138,38 @@ const Services = () => {
     ],
     Packaging: [
       {
+        // id: 1,
+        // title: "Packaging",
+        // titleTwo: "Knowledge Gap Analysis",
+        // // date: "2d ago",
+        // // commentCount: 9,
+        // // shareCount: 5,
+        // imgOne: "/images/serviceImage3.webp",
+        // imgTwo: "/images/serviceImage4.webp",
         id: 1,
-        title: "Packaging",
-        titleTwo: "Knowledge Gap Analysis",
-        // date: "2d ago",
-        // commentCount: 9,
-        // shareCount: 5,
-        imgOne: "/images/serviceImage3.webp",
-        imgTwo: "/images/serviceImage4.webp",
+        title: "UK Responsible Person",
+
+
+        titleTwo: "Cosmetic Product Safety Report",
+        subOne: " DEFINITION OF A RESPONSIBLE PERSON",
+        subTwo: "UK / GB CPSR, PIF, Label, etc",
+        detailsOne: " A Responsible Person is a legal or natural persondesignated with an address in the UK (Great Britain  – England, Scotland and Wales) (or EU Community). For each cosmetic product placed on the market, the Responsible Person shall ensure compliance with the relevant obligations set out in the cosmetics Regulation.", detailsTwo: "",
+        detailsTwo: "        Iwo Cosmetic Products Safety Solutions Ltd. produces                            Cosmetic Product Safety Reports (CPSR) PIF, INCI                            labels, label review, etc, to comply with the UK /                         GB market.",
+        mtOne:"     UK RESPONSIBLE PERSON  ",
+        mDOne: "Iwo Cosmetic Products Safety Solutions Ltd. is a Responsible Person (RP) for both the United Kingdom       (UK) / Great Britain (GB) and non-UK / GB        manufacturers, importers or distributors. As a UK       RP, Iwo Cosmetic Products Safety Solutions Ltd.        notifies cosmetic products using the UK Submit        Cosmetic Product Notification (SCPN) Portal.",
+        mDTwo: " Iwo Cosmetic Products Safety Solutions Ltd.collaborates collaborates with colleagues in the EU to produce EU compliant CPSR, PIF, INCI labels, Label reviews, etc, to comply with the EU market.",
+        mTTwo:"EU CPSR, PIF, Label, etc",
+        lDOne: "Iwo Cosmetic Products Safety Solutions Ltd.collaborates with colleagues as Responsible Persons (RP) in Europe for notification of cosmetic products  via the Cosmetic Product Notification Portal (CPNP) for the EU market.",
+        lTOne: "                            EU RESPONSIBLE PERSON        ",
+        lTTwo:"                            WORLD REGULATORY COSMETIC SAFETY REPORTS        ",
+        
+        lDTwo:"Iwo Cosmetic Products Safety Solutions Ltd. also produces cosmetic safety assessment reports for other world regulatory regimes (e.g. ASEAN, CANADA,SASO /GULF STATES, USA, etc.).",
+        
+        date: "5h ago",
+        commentCount: 5,
+        shareCount: 2,
+        imgOne: "/images/serviceImage1.webp",
+        imgTwo: "/images/serviceImage2.webp",
       },
       // {
       //   id: 2,
@@ -140,13 +212,14 @@ const Services = () => {
             {Object.values(categories).map((posts, idx) => (
               <Tab.Panel
                 key={idx}
-                className={classNames("rounded-xl  w-full mx-auto mb-10  sm:p-3")}
+                className={classNames("rounded-xl  w-full mx-auto  sm:p-3")}
               >
                 <div>
                   {posts.map((post) => (
-                  <><div
+                    <>
+                      <div
                       key={post.id}
-                      className="hidden   relative md:flex justify-center items-center rounded-md p-3 "
+                      className="hidden   relative xl:flex justify-center items-center rounded-md p-3 "
                     >
                       <div className=" hidden md:flex  h-[600px] lg:h-[500px] xl:h-[450px] sliding-cards">
                         <div
@@ -154,11 +227,11 @@ const Services = () => {
                           style={{ backgroundImage: `url(${post.imgOne})` }}
                         >
                           <div className="flex justify-center py-2">
-                            <h1 className="text-[#333] pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[20px] font-bold">
+                            <h1 className="text-[#333] pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[16px]  font-bold">
                               {post.title}
                             </h1>
                           </div>
-                          <p className="text-[#333] font-lato font-bold">
+                          <p className="text-[#333333] font-lato font-bold">
                             {post.subOne}
                             
                           </p>
@@ -189,7 +262,7 @@ const Services = () => {
                           style={{ backgroundImage: `url(${post.imgTwo})` }}
                         >
                           <div className="flex justify-center py-2">
-                            <h1 className="text-[#333] pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[20px] font-bold">
+                            <h1 className="text-[#333] pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[16px] font-bold">
                               {post.titleTwo}
                             </h1>
                           </div>
@@ -226,10 +299,88 @@ const Services = () => {
                       
                     </div>
                    
-                      {/* 2 */}
+                      {/* 2 (3) */}
+                     
+                      <div className=" hidden  xl:block">
+                      <div className="mt-[20px] last:flex  h-[600px] xl:h-[400px] sliding-cardsOne">
+        <div className=" card  h-[80%] mt-10  w-[455px] lg:mt-0  mx-auto py-20 px-10"  style={{ backgroundImage: `url('images/serviceImage3.webp')` }}>
+        <h1 className="text-[#333] inline  pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-12 text-[16px] font-bold">
+        Packaging
+                            </h1>
+                            
+
+          <p className="text-white opacity-[0.8]">
+           
+          </p>
+        </div>
+
+        <div className=" card h-[80%] mt-10 lg:mt-0  w-[545px] mx-auto py-20 px-10" style={{ backgroundImage: `url('images/serviceImage4.webp')` }}>
+        <h1 className="text-[#333] inline pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[16px] font-bold">
+        Knowledge Gap Analysis
+                            </h1>
+                            
+          
+        
+        </div>
+
+        <div className=" card h-[80%] mt-10 lg:mt-0  w-[402px] mx-auto py-20 px-10" style={{ backgroundImage: `url('images/serviceImage5.webp')` }}>
+         
+        <h1 className="text-[#333] pb-2   text-center bg-[#D9D9D9]  rounded-full py-2 px- text-[16px]  font-bold">
+                              Other Safety Assessment
+
+                            </h1>     
+                            <p className="text-[#333]  font-lato">Non-Cosmetic Chemical Consumer Products.</p>
+        </div>
+      </div>
+
+                      </div>
+                      
+                      {/* 3 (3) */}
+                      
+                      <div className=" hidden  xl:block">
+                      <div className="mt-[-60px] hidden xl:flex  h-[600px] lg:h-[450px] xl:h-[400px] sliding-cardsTwo">
+        <div className=" card  h-[80%] mt-10  w-[478px] lg:mt-0  mx-auto py-20 px-10"  style={{ backgroundImage: `url('images/serviceImage6.webp')` }}>
+        <div className="text-center">
+                            <span className="text-[#333]  pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[16px] font-bold">
+                            Personal Information File
+                            </span>
+       </div>
+
+          <p className="text-white opacity-[0.8]">
+           
+          </p>
+        </div>
+
+        <div className=" card h-[80%] mt-10 lg:mt-0  w-[478px] mx-auto py-20 px-10" style={{ backgroundImage: `url('images/serviceImage7.webp')` }}>
+                            <div className="text-center">
+                            <span className="text-[#333]  pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[16px] font-bold">
+                            INCI Label Preparation
+                            </span>
+       </div>
+                            
+          
+        
+        </div>
+
+        <div className=" card h-[80%] mt-10 lg:mt-0  w-[447px] mx-auto py-20 px-10" style={{ backgroundImage: `url('images/serviceImage8.webp')` }}>
+         
+        <div className="text-center">
+                            <span className="text-[#333]  pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[16px] font-bold">
+                            Physical Testing
+                            </span>
+       </div> 
+                            <p className="text-[#333]  font-lato">Non-Cosmetic Chemical Consumer Products.</p>
+        </div>
+      </div>
+
+                      </div>
+                      
+
+                      {/* mobile 2*/}
+                      {/* 1 */}
                       <div
                       key={post.id}
-                      className="   relative md:hidden rounded-md sm:p-3 "
+                      className="   relative xl:hidden rounded-md sm:p-3 "
                     >
                       <div className="   ">
                         <div
@@ -303,8 +454,86 @@ const Services = () => {
 
 
                       
-                    </div>
+                      </div>
+                      {/* 2 */}
+                      <div className="xl:hidden">
+                      <div className=" card  h-[80%] mt-10  w-full lg:mt-0  mx-auto py-20 px-10"  style={{ backgroundImage: `url('images/serviceImage3.webp')` }}>
+                          <div className="flex justify-center">
+                          <h1 className="text-[#333]  pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-12 text-[16px] font-bold">
+        Packaging
+                            </h1>
+       </div>
+                            
+
+          <p className="text-white opacity-[0.8]">
+           
+          </p>
+                        </div>
+                        <div className=" card h-[80%] mt-10 lg:mt-0  w-full mx-auto py-20 px-10" style={{ backgroundImage: `url('images/serviceImage4.webp')` }}>
+        <h1 className="text-[#333] inline pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[16px] font-bold">
+        Knowledge Gap Analysis
+                            </h1>
+                            
+          
+        
+                        </div>
+                        
+        <div className=" card h-[80%] mt-10 lg:mt-0  w-full mx-auto py-20 px-10" style={{ backgroundImage: `url('images/serviceImage5.webp')` }}>
+         
+         <h1 className="text-[#333] pb-2   text-center bg-[#D9D9D9]  rounded-full py-2 px- text-[16px]  font-bold">
+                               Other Safety Assessment
+ 
+                             </h1>     
+                             <p className="text-[#333]  font-lato">Non-Cosmetic Chemical Consumer Products.</p>
+         </div>
+                        
+                      </div>
+                      {/* 3 */}
+
+                     
+
+
+
+                      {/* 2 */}
+                      <div className="xl:hidden">
+                      <div className=" card  h-[80%] mt-10  w-full lg:mt-0  mx-auto py-20 px-10"  style={{ backgroundImage: `url('images/serviceImage6.webp')` }}>
+        <div className="text-center">
+                            <span className="text-[#333]  pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[16px] font-bold">
+                            Personal Information File
+                            </span>
+       </div>
+
+          <p className="text-white opacity-[0.8]">
+           
+          </p>
+        </div>
+
+        <div className=" card h-[80%] mt-10 lg:mt-0  w-full mx-auto py-20 px-10" style={{ backgroundImage: `url('images/serviceImage7.webp')` }}>
+                            <div className="text-center">
+                            <span className="text-[#333]  pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[16px] font-bold">
+                            INCI Label Preparation
+                            </span>
+       </div>
+                            
+          
+        
+        </div>
+
+        <div className=" card h-[80%] mt-10 lg:mt-0  w-full mx-auto py-20 px-10" style={{ backgroundImage: `url('images/serviceImage8.webp')` }}>
+         
+        <div className="text-center">
+                            <span className="text-[#333]  pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[16px] font-bold">
+                            Physical Testing
+                            </span>
+       </div> 
+                            <p className="text-[#333]  font-lato">Non-Cosmetic Chemical Consumer Products.</p>
+        </div>
+
+</div>
+
+                      {/* 3 */}
                    
+                    
                     </>
 
                     
