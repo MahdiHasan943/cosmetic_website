@@ -109,7 +109,7 @@ const Services = () => {
   });
   return (
     <div id="Services" className="py-20">
-      <h2 className="font-popping py-10 text-[33px] leading-[54px] text-center font-bold text-[#333333] ">
+      <h2 className="font-popping py-10 text-[36px] leading-[60px] text-center font-bold text-[#333333] ">
         Our Services
       </h2>
 
