@@ -2,13 +2,14 @@
 import React from "react";
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/20/solid";
-
+import { motion } from "framer-motion";
+import { textVariant2 } from "@/utils/motion";
 const Faq = () => {
   return (
     <div id="FAQs" className="py-10">
-      <h2 className="text-center font-popping  text-[36px] leading-[60px] text-[#333333] font-bold">
+      <motion.h2 variants={textVariant2} initial="hidden" whileInView="show" className="text-center font-popping  text-[36px] leading-[60px] text-[#333333] font-bold">
         Help/FAQ
-      </h2>
+      </motion.h2>
       <p className="text-center font-popping text-[24px] leading-[40px] text-[#595959] font-bold">
         Your products matter - here for their safety and regulatory <br />{" "}
         requirements

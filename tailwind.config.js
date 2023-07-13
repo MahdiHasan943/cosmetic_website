@@ -30,7 +30,7 @@ module.exports = {
       },
       fontFamily: {
         lato: ['Poppins', 'sans-serif'],
-        volkhov: ['Volkhov', 'serif'],
+        volkhov: ['Poppins', 'sans-serif'],
         popping: ['Poppins', 'sans-serif'],
       },
       colors: {

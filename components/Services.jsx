@@ -2,9 +2,12 @@
 import { useState } from "react";
 import { Tab } from "@headlessui/react";
 
+import { motion } from "framer-motion";
+import { textVariant2 } from "@/utils/motion";
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
+
 
 
 const Services = () => {
@@ -109,9 +112,9 @@ const Services = () => {
   });
   return (
     <div id="Services" className="py-20">
-      <h2 className="font-popping py-10 text-[36px] leading-[60px] text-center font-bold text-[#333333] ">
+      <motion.h2 variants={textVariant2} initial="hidden" whileInView="show" className="font-popping py-10 text-[36px] leading-[60px] text-center font-bold text-[#333333] ">
         Our Services
-      </h2>
+      </motion.h2>
 
       <div className="w-full mx-auto   ">
         <Tab.Group>

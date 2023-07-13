@@ -1,12 +1,15 @@
+'use client'
 import React from "react";
+import { motion } from "framer-motion";
+import { textVariant2 } from "@/utils/motion";
 
 const About = () => {
   return (
     <>
     <div className="" id="About">
-      <h2 className="font-popping py-10 text-[36px] leading-[60px] text-center font-bold text-[#333333] ">
+      <motion.h2 variants={textVariant2} initial="hidden" whileInView="show" className="font-popping py-10 text-[36px] leading-[60px] text-center font-bold text-[#333333] ">
         About Us
-      </h2>
+      </motion.h2>
       <div className="mx-auto  lg:flex items-center justify-center gap-6">
         <div className="">
           <p className="font-popping text-[#333333] text-[22px] leading-[30px]  ">

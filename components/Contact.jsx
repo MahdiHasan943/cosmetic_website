@@ -1,10 +1,12 @@
+'use client'
 import React from 'react'
-
+import { motion } from "framer-motion";
+import { textVariant2 } from "@/utils/motion";
 const Contact = () => {
   return (
     <div className='py-10' id='Contact'>
       <div className="mx-auto  contactMain w-full h-auto py-10   xl:w-[1240px]">
-          <p className='font-popping py-10 text-[36px] leading-[60px] text-center font-bold text-[#333333] '>Contact Us</p>
+          <motion.p variants={textVariant2} initial="hidden" whileInView="show" className='font-popping py-10 text-[36px] leading-[60px] text-center font-bold text-[#333333] '>Contact Us</motion.p>
         <form action="">
           
           <div className="mx-auto text-center px-6 w-full justify-center md:flex gap-6 items-center">
