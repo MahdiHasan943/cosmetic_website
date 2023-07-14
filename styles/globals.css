@@ -462,3 +462,24 @@ background: var(--white, #FFF);
 
 /* phone */
 /*services */
+/* swiper */
+
+:root {
+  --swiper-navigation-size: 30px!important;
+
+}
+
+ .swiper-button-prev {
+    color: #06b6d4!important; 
+}
+
+.swiper-button-next {
+  color: #06b6d4!important; 
+
+ 
+
+  
+} 
+
+
+/* swiper */

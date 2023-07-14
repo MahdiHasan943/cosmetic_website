@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Review from "@/components/Review";
 import Services from "@/components/Services";
+import Top from "@/components/Top";
 
 export default function Home() {
   return (
@@ -21,7 +22,8 @@ export default function Home() {
       <About />
       <Faq />
       <Contact/>
-     <Footer/>
+      <Footer />
+      <Top/>
     </main>
   )
 }
