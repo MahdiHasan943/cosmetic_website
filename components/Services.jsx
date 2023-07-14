@@ -183,7 +183,7 @@ const Services = () => {
     ],
   });
   return (
-    <div id="Services" className="py-20">
+    <div id="Services" className="pb-20">
       <motion.h2 variants={textVariant2} initial="hidden" whileInView="show" className="font-popping py-10 text-[36px] leading-[60px] text-center font-bold text-[#333333] ">
         Our Services
       </motion.h2>
@@ -223,7 +223,7 @@ const Services = () => {
                     >
                       <div className=" hidden md:flex  h-[600px] lg:h-[500px] xl:h-[450px] sliding-cards">
                         <div
-                          className=" card   h-[453px] w-[50%] bg-opacity-[0.4] xl:w-[642px] mt-10 lg:mt-0  mx-auto py-2 px-10"
+                          className=" card   h-[453px]  bg-no-repeat bg-opacity-[0.4] xl:w-[642px] mt-10 lg:mt-0  mx-auto py-2 px-10"
                           style={{ backgroundImage: `url(${post.imgOne})` }}
                         >
                           <div className="flex justify-center py-2">
@@ -384,7 +384,7 @@ const Services = () => {
                     >
                       <div className="   ">
                         <div
-                          className="px-2 min-h-[400px]  w-full bg-opacity-[0.4]  mt-10 lg:mt-0  mx-auto py-2 "
+                          className="px-2 h-auto bg-cover   overflow-hidden   max-w-[642px] bg-no-repeat  w-full bg-opacity-[0.4]  mb-10 lg:mt-0  mx-auto py-2 "
                           style={{ backgroundImage: `url(${post.imgOne})` }}
                         >
                           <div className="flex justify-center py-2">
@@ -419,11 +419,11 @@ const Services = () => {
                         </div>
 
                         <div
-                          className=" px-2 w-full min-h-[400px] mt-10 lg:mt-0  mx-auto py-2 sm:px-10"
+                          className=" px-2 w-full h-auto bg-cover   max-w-[642px] bg-no-repeat mt-10 lg:mt-0  mx-auto py-2 sm:px-10"
                           style={{ backgroundImage: `url(${post.imgTwo})` }}
                         >
                           <div className="flex justify-center py-2">
-                            <h1 className="text-[#333] pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[20px] font-bold">
+                            <h1 className="text-[#333] pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[16px] sm:text-[20px] font-bold">
                               {post.titleTwo}
                             </h1>
                           </div>
@@ -456,8 +456,8 @@ const Services = () => {
                       
                       </div>
                       {/* 2 */}
-                      <div className="xl:hidden">
-                      <div className=" card  h-[80%] mt-10  w-full lg:mt-0  mx-auto py-20 px-10"  style={{ backgroundImage: `url('images/serviceImage3.webp')` }}>
+                      <div className="xl:hidden ">
+                      <div className=" card  h-[80%] mt-10 max-w-[642px] bg-no-repeat bg-center  w-full lg:mt-0  mx-auto py-20 px-10"  style={{ backgroundImage: `url('images/serviceImage3.webp')` }}>
                           <div className="flex justify-center">
                           <h1 className="text-[#333]  pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-12 text-[16px] font-bold">
         Packaging
@@ -469,22 +469,26 @@ const Services = () => {
            
           </p>
                         </div>
-                        <div className=" card h-[80%] mt-10 lg:mt-0  w-full mx-auto py-20 px-10" style={{ backgroundImage: `url('images/serviceImage4.webp')` }}>
-        <h1 className="text-[#333] inline pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[16px] font-bold">
+                        <div className=" max-w-[642px] bg-no-repeat bg-center   card h-[80%] mt-10 lg:mt-0  w-full mx-auto py-20 px-10" style={{ backgroundImage: `url('images/serviceImage4.webp')` }}>
+                          <div className="flex justify-center">
+                          <h1 className="text-[#333] inline pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[16px] font-bold">
         Knowledge Gap Analysis
                             </h1>
+        </div>
                             
           
         
                         </div>
                         
-        <div className=" card h-[80%] mt-10 lg:mt-0  w-full mx-auto py-20 px-10" style={{ backgroundImage: `url('images/serviceImage5.webp')` }}>
+        <div className=" card h-[80%] mt-10 lg:mt-0 max-w-[642px] bg-no-repeat bg-center    w-full mx-auto py-20 px-10" style={{ backgroundImage: `url('images/serviceImage5.webp')` }}>
          
-         <h1 className="text-[#333] pb-2   text-center bg-[#D9D9D9]  rounded-full py-2 px- text-[16px]  font-bold">
+                          <div className="flex justify-center">
+                          <h1 className="text-[#333] pb-2   text-center bg-[#D9D9D9]  rounded-full py-2 px- text-[16px]  font-bold">
                                Other Safety Assessment
  
                              </h1>     
-                             <p className="text-[#333]  font-lato">Non-Cosmetic Chemical Consumer Products.</p>
+        </div>
+                             <p className="text-[#333] text-center py-2 font-lato">Non-Cosmetic Chemical Consumer Products.</p>
          </div>
                         
                       </div>
@@ -496,7 +500,7 @@ const Services = () => {
 
                       {/* 2 */}
                       <div className="xl:hidden">
-                      <div className=" card  h-[80%] mt-10  w-full lg:mt-0  mx-auto py-20 px-10"  style={{ backgroundImage: `url('images/serviceImage6.webp')` }}>
+                      <div className=" card max-w-[642px] bg-no-repeat bg-center    h-[80%] mt-10  w-full lg:mt-0  mx-auto py-20 px-10"  style={{ backgroundImage: `url('images/serviceImage6.webp')` }}>
         <div className="text-center">
                             <span className="text-[#333]  pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[16px] font-bold">
                             Personal Information File
@@ -508,7 +512,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className=" card h-[80%] mt-10 lg:mt-0  w-full mx-auto py-20 px-10" style={{ backgroundImage: `url('images/serviceImage7.webp')` }}>
+        <div className=" card h-[80%] mt-10 lg:mt-0 max-w-[642px] bg-no-repeat bg-center    w-full mx-auto py-20 px-10" style={{ backgroundImage: `url('images/serviceImage7.webp')` }}>
                             <div className="text-center">
                             <span className="text-[#333]  pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[16px] font-bold">
                             INCI Label Preparation
@@ -519,14 +523,14 @@ const Services = () => {
         
         </div>
 
-        <div className=" card h-[80%] mt-10 lg:mt-0  w-full mx-auto py-20 px-10" style={{ backgroundImage: `url('images/serviceImage8.webp')` }}>
+        <div className=" card h-[80%] mt-10 lg:mt-0  max-w-[642px] bg-no-repeat bg-center   w-full mx-auto py-20 px-10" style={{ backgroundImage: `url('images/serviceImage8.webp')` }}>
          
         <div className="text-center">
                             <span className="text-[#333]  pb-2 text-center bg-[#D9D9D9]  rounded-full py-2 px-4 text-[16px] font-bold">
                             Physical Testing
                             </span>
        </div> 
-                            <p className="text-[#333]  font-lato">Non-Cosmetic Chemical Consumer Products.</p>
+                            <p className="text-[#333]  text-center py-4 font-lato">Non-Cosmetic Chemical Consumer Products.</p>
         </div>
 
 </div>

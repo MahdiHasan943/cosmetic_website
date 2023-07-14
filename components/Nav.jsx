@@ -103,6 +103,16 @@ function Nav() {
          Contact Us
         </a>
       </li>
+      <div className="px-2 flex gap-4 items-center justify-between">
+          <button className="hidden lg:block font-lato  bg-[#313131] rounded-lg text-white px-3 py-2 text-[13px]">
+            Book Now
+          </button>
+          <div className="hidden nm:block">
+          <img className="inline" src="/images/whatsapp.svg" alt="whatsapp" />
+          <span className="font-lato">00 44 (0)  7539 466 779</span>
+          </div>
+
+        </div>
     </React.Fragment>
   );
 
@@ -145,16 +155,7 @@ function Nav() {
          
         </ul>
         
-        <div className="px-2 flex gap-4 items-center justify-between">
-          <button className="hidden lg:block font-lato  bg-[#313131] rounded-lg text-white px-3 py-2 text-[13px]">
-            Book Now
-          </button>
-          <div className="hidden nm:block">
-          <img className="inline" src="/images/whatsapp.svg" alt="whatsapp" />
-          <span className="font-lato">00 44 (0)  7539 466 779</span>
-          </div>
-
-        </div>
+     
       </div>
 
       <div onClick={navToggle} className={icon}>

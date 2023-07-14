@@ -209,13 +209,13 @@ a {
 
 .footerHeadText{
   color: #595959;
-font-family: Poppins;
-font-size: 28px;
+/* font-family: Poppins; */
+/* font-size: 28px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.2px;
-margin-bottom: 20px;
+margin-bottom: 20px; */
 }
 
 /* footer */
@@ -307,11 +307,11 @@ background: var(--white, #FFF);
 
 .sliding-cards .card:first-child:hover.card {
  
-  width: 50vw;
+  /* width: 50vw; */
 }
 .sliding-cards .card:first-child:hover+.card {
   --translate-x: 52%;
-  width: 50vw;
+  /* width: 50vw; */
 }
 
 .sliding-cards .card:nth-child(2) {
