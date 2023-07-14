@@ -483,3 +483,19 @@ background: var(--white, #FFF);
 
 
 /* swiper */
+.star{
+  animation: off-on 7s linear infinite
+}
+
+@keyframes off-on {
+  0% {
+    opacity: 0;
+}
+
+75% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+} 
+}
