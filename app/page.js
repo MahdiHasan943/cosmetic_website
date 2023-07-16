@@ -11,7 +11,6 @@ import Review from "@/components/Review";
 import Services from "@/components/Services";
 import Top from "@/components/Top";
 import { useEffect, useState } from "react";
-import Loading from "@/components/loading";
 export default function Home() {
 
   const [looading, setLooading] = useState(false);
