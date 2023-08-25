@@ -34,7 +34,7 @@ export default function Home() {
       </div>): (<><Hero />
       <Review />
       <Services />
-      <Booking />
+      {/* <Booking /> */}
       <About />
       <Faq />
       <Contact/>

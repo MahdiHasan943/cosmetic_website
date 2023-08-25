@@ -14,23 +14,22 @@ const About = () => {
         <div className="">
           <p className="font-popping text-[#333333] text-[22px] leading-[30px]  ">
             <span className="font-bold">Iwo Cosmetic Products Safety Solutions Ltd.</span> (abbreviated to <span className="font-bold">Iwo CPSS
-            Ltd.</span> ) is a cosmetic product,
-            personal care and chemical consumer goods safety  and regulatory
-            company with a global reach.
-          </p>
-            <p className="font-popping text-[#333333] text-[22px] lg:text-[16px] 2xl:text-[22px] leading-[30px]  py-4">
-            The company was founded in 2015 and has experiences in the field that 
-spans decades. Based in the United Kingdom in Great Britain (UK / GB) and
-from wherever you are in the world, Iwo CPSS Ltd is a Responsible Person that 
-can help you market your products in the UK / GB and in the European Union 
-(EU). Iwo CPSS Ltd has its main speciality in the fields of cosmetic products 
-safety and regulation. This includes producing safety assessment reports to 
-various world regulatory regimes such as ASEAN, Canada, Gulf States, USA, 
-etc. Hence if you are a manufacturer, an importer or a distributor of cosmetic 
-products, looking to sell your products in the UK / GB and in the EU, or 
-elsewhere, contact Iwo CPSS Ltd to assist you in meeting your product safety
-and regulatory requirements.
-          </p>
+            Ltd.</span> ) is a consultancy business with specialism mainly in the fields of cosmetics and chemical consumer products regulation and safety.
+
+            </p>
+            
+            <p className="font-popping text-[#333333] text-[16px] leading-[30px]  py-4">
+            A necessary requirement for marketing a cosmetic product in the 
+UK or EU, is for a Safety Assessor / Toxicologist or other qualified person to produce a Cosmetic Product Safety Report (CPSR), Part A (Safety Information) and Part B (Safety Assessment) to comply with the UK / EU Cosmetics Regulation.  Since Britain left the EU (Brexit) on the 31st December 2020, the UK market comprises England, Scotland and Wales only.  Northern Ireland is now part of the EU but however has “unfettered” access to the UK / GB market. 
+            </p>
+            <p className="font-popping text-[#333333] text-[22px] leading-[30px] font-bold ">   Impact of Brexit</p>
+            <p className="font-popping text-[#333333] text-[16px] leading-[30px] ">
+         
+Brexit meant that the United Kingdom now has its own independent UK Cosmetics Regulation separate from the European Union (EU). Only manufacturers, importers, distributors and Safety Assessors with an 
+address in the UK / GB are permitted to place a cosmetic products directly in the UK / GB market.  Thus, a non-UK / GB manufacturers / importer or 
+distributor will require to designate in writing a Responsible Person with an address in the UK / GB to assist in its sale of their cosmetic market products in 
+the UK.
+            </p>
           <button className="bg-[#D5D5D5] mt-4 mb-10 py-3 px-16  gm:px-20 relative rounded-full">
             <img className="absolute left-3  top-2 " src="/images/whatApp.svg" alt="" />
             <span className="font-lato text-[15px]">FREE CONSULTATION</span>

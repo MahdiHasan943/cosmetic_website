@@ -208,13 +208,14 @@ const Services = () => {
               </Tab>
             ))}
           </Tab.List>
-          <Tab.Panels className="mt-2  w-full">
+          <Tab.Panels className="mt-2  w-full relative">
+            <img className="absolute top-[-100px] left-0" src="/images/stars.png" alt="" />
             {Object.values(categories).map((posts, idx) => (
               <Tab.Panel
                 key={idx}
                 className={classNames("rounded-xl  w-full mx-auto  sm:p-3")}
               >
-                <div>
+                {/* <div>
                   {posts.map((post) => (
                     <>
                       <div
@@ -299,7 +300,6 @@ const Services = () => {
                       
                     </div>
                    
-                      {/* 2 (3) */}
                      
                       <div className=" hidden  xl:block">
                       <div className="mt-[20px] last:flex  h-[600px] xl:h-[400px] sliding-cardsOne">
@@ -335,7 +335,7 @@ const Services = () => {
 
                       </div>
                       
-                      {/* 3 (3) */}
+                      
                       
                       <div className=" hidden  xl:block">
                       <div className="mt-[-60px] hidden xl:flex  h-[600px] lg:h-[450px] xl:h-[400px] sliding-cardsTwo">
@@ -373,11 +373,8 @@ const Services = () => {
         </div>
       </div>
 
-                      </div>
-                      
-
-                      {/* mobile 2*/}
-                      {/* 1 */}
+                      </div>                    
+            
                       <div
                       key={post.id}
                       className="   relative xl:hidden rounded-md sm:p-3 "
@@ -455,7 +452,7 @@ const Services = () => {
 
                       
                       </div>
-                      {/* 2 */}
+                    
                       <div className="xl:hidden ">
                       <div className=" card  h-[80%] mt-10 max-w-[642px] bg-no-repeat bg-center  w-full lg:mt-0  mx-auto py-20 px-10"  style={{ backgroundImage: `url('images/serviceImage3.webp')` }}>
                           <div className="flex justify-center">
@@ -492,13 +489,12 @@ const Services = () => {
          </div>
                         
                       </div>
-                      {/* 3 */}
+                      
 
                      
 
 
-
-                      {/* 2 */}
+          
                       <div className="xl:hidden">
                       <div className=" card max-w-[642px] bg-no-repeat bg-center    h-[80%] mt-10  w-full lg:mt-0  mx-auto py-20 px-10"  style={{ backgroundImage: `url('images/serviceImage6.webp')` }}>
         <div className="text-center">
@@ -535,14 +531,14 @@ const Services = () => {
 
 </div>
 
-                      {/* 3 */}
+                      
                    
                     
                     </>
 
                     
                   ))}
-                </div>
+                </div> */}
               </Tab.Panel>
             ))}
           </Tab.Panels>
