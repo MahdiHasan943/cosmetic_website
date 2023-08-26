@@ -51,29 +51,65 @@ the UK.
       </div>
       
       </div>
-      <div className="bg-[#F6F6F6] rounded-xl px-4 mt-5 sm:px-8 py-20">
+      {/* experience */}
+      <div className="bg-[#F6F6F6] py-8 px-4 sm:px-16">
+        <p className="font-popping text-[16px] font-bold">Experience</p>
+        <p className="font-popping text-[15px] py-3">
+        IWO Cosmetic Product Safety Solutions Ltd. (abbreviated to Iwo CPSS Ltd) has 20 year’s experience in the field of regulatory and cosmetic product safety and has helped bring to market brand name products.  Iwo CPSS Ltd also assists micro-, small and medium sized businesses.  
 
-        <div className="xl:flex justify-center gap-20">
-          <div className="my-5 xl:my-0 bg-white rounded-lg py-14 gm:px-20">
-            <p className="text-center font-popping text-[26px] font-bold mb-5">Packaging Sample</p>
-          <div className="sm:flex   gap-8 items-center">
-          <img className="mx-auto" src="/images/PackagingSlideL.webp" alt="packging" />
-          <img className="mx-auto my-5 sm:my-0" src="/images/PackagingSlideL.webp" alt="packging" />
+        </p>
+        <p className="font-popping text-[15px] ">
+        Contact Iwo CPSS Ltd for your:
 
-        </div>
-      </div>
-        {/* 2 */}
-      
-        <div className="bg-white overflow-hidden rounded-lg py-14 gm:px-20">
-            <p className="text-center font-popping text-[26px] font-bold mb-5">Other Assessment</p>
-          <div className="sm:flex   gap-8 items-center">
-          <img className="mx-auto" src="/images/packingSlideR.webp" alt="packging" />
-          <img className="mx-auto my-5 sm:my-0" src="/images/packingSlideR.webp" alt="packging" />
+        </p>
 
-        </div>
-      </div>
-          
-        </div>
+       
+        <p className="font-popping">
+        ➢  Cosmetic Product Safety Reports (CPSR)
+
+        </p>
+        <p className="font-popping">
+        ➢  (Cosmetic Product Safety Assessment – Part B)
+
+        </p>
+        <p className="font-popping">
+        ➢  Production Information Files (PIF dossiers)
+
+        </p>
+        <p className="font-popping">
+        ➢  Notification
+
+        </p>
+        <p className="font-popping">
+        ➢  Labelling Review
+
+        </p>
+        <p className="font-popping">
+        ➢  INCI Label preparation
+
+        </p>
+        <p className="font-popping">
+        ➢  Services to other cosmetics regulations, e.g. USA, Canada, Gulf States (e.g. SASO), ASEAN, etc.
+
+        </p>
+        <p className="font-popping">
+        ➢  Chemical Toxicological Reviews
+
+</p>
+<p className="font-popping">
+➢  Knowledge Gap Analysis
+
+        </p>
+        <p className="font-popping">
+        ❖          Support Services, e.g. Microbiological Tests, Preservative Challenge Test, Stability / Packaging Compatibility Tests.
+
+</p>
+        <p className="font-popping">
+        ❖          Competitive Prices.
+
+</p>
+        
+
       </div>
     </>
   );
