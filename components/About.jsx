@@ -47,6 +47,7 @@ the UK.
             </div>
             <img className="inline h-[321px]  md:w-auto " src="/images/AboutFace2.webp" alt="" />
           </div> */}
+            
         </div>
       </div>
       

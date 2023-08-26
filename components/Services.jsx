@@ -4,6 +4,7 @@ import { Tab } from "@headlessui/react";
 
 import { motion } from "framer-motion";
 import { textVariant2 } from "@/utils/motion";
+import CosmeticCard from "./CosmeticCard";
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -182,6 +183,7 @@ const Services = () => {
       // },
     ],
   });
+
   return (
     <div id="Services" className="pb-20">
       <motion.h2 variants={textVariant2} initial="hidden" whileInView="show" className="font-popping py-10 text-[36px] leading-[60px] text-center font-bold text-[#333333] ">
@@ -544,6 +546,7 @@ const Services = () => {
           </Tab.Panels>
         </Tab.Group>
       </div>
+      {/* <CosmeticCard/> */}
     </div>
   );
 };
