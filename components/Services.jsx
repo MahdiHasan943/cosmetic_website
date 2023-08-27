@@ -546,7 +546,7 @@ const Services = () => {
           </Tab.Panels>
         </Tab.Group>
       </div>
-      {/* <CosmeticCard/> */}
+      <CosmeticCard/>
     </div>
   );
 };
