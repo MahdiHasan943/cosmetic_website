@@ -16,12 +16,12 @@ const Faq = () => {
         requirements
       </p>
 
-      <div className="w-full  px-4 pt-16">
+      <div className="w-full  sm:px-4 pt-16">
         <div className="mx-auto  lg:w-[50%] rounded-2xl bg-white p-2">
           <Disclosure >
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex  w-full ">
+                <Disclosure.Button className="flex object-fill w-full ">
                   {open ? (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ const Faq = () => {
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="currentColor"
-                      className="w-6 h-6"
+                      className=" w-6 h-6"
                     >
                       <path
                         strokeLinecap="round"

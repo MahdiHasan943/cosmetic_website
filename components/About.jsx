@@ -9,15 +9,16 @@ const About = () => {
     <div className="sm:px-16  px-4 py-8" id="About">
       <motion.h2 variants={textVariant2} initial="hidden" whileInView="show" className="font-popping py-10 text-[36px] leading-[60px] text-center font-bold text-[#333333] ">
         About Us
-      </motion.h2>
-      <div className="mx-auto  lg:grid grid-cols-2 items-center justify-center gap-6">
-        <div className="">
-          <p className="font-popping text-[#333333] text-[22px] leading-[30px]  ">
+        </motion.h2>
+        <p className="font-popping text-[#333333] text-[22px] leading-[30px]  ">
             <span className="font-bold">Iwo Cosmetic Products Safety Solutions Ltd.</span> (abbreviated to <span className="font-bold">Iwo CPSS
             Ltd.</span> ) is a consultancy business with specialism mainly in the fields of cosmetics and chemical consumer products regulation and safety.
 
             </p>
             
+      <div className="mx-auto  lg:grid grid-cols-2 items-center justify-center gap-6">
+        <div className="">
+      
             <p className="font-popping text-[#333333] text-[16px] leading-[30px]  py-4">
             A necessary requirement for marketing a cosmetic product in the 
 UK or EU, is for a Safety Assessor / Toxicologist or other qualified person to produce a Cosmetic Product Safety Report (CPSR), Part A (Safety Information) and Part B (Safety Assessment) to comply with the UK / EU Cosmetics Regulation.  Since Britain left the EU (Brexit) on the 31st December 2020, the UK market comprises England, Scotland and Wales only.  Northern Ireland is now part of the EU but however has “unfettered” access to the UK / GB market. 
