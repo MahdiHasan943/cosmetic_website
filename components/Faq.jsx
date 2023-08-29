@@ -55,25 +55,12 @@ const Faq = () => {
                   )}
 
                   <span className="text-[20px] font-popping text-[#333333] font-bold">
-                  What Do I Need To Do To Sell My Cosmetic Products In the UK and EU?
-                  </span>
+                  Want To Sell In The United Kingdom (UK)                  </span>
                 </Disclosure.Button>
-                <Disclosure.Panel className="px-4 text-start sm:ml-[70px] pt-4 pb-2    text-gray-500">
+                <Disclosure.Panel className="px-4 text-start sm:ml-[70px] pt-4 pb-2    text-[#595959]">
                   <p className="text-[15px]">
-                    {" "}
-                    The law states that before a cosmetic product can be sold in
-                    the UK / EU market, it must have the <br /> following as a
-                    minimum: <br />
-                  </p>
-                  <p className="text-[15px] py-4">
-                    1. A Responsible Person (RP) with an address in the UK / GB
-                    or the EU.
-                  </p>
-                  <p className="text-[15px] "> 2. A compliant cosmetic product safety report (CPSR).</p>
-                  <p className="text-[15px] py-4">3. A Product Information File (PIF).</p>
-                  <p className="text-[15px]">
-                    4. Notification of the cosmetic product on a UK / GB or EU
-                    government portal.
+                  Are you a Manufacturer based outside the UK and wish to sell your product in the UK / GB market, or are you based in the UK and need assistance with the UK legislation? Iwo CPSS Ltd is a Responsible Person (RP) with an address in the UK / GB (Great Britain – England, Scotland and Wales) assists manufacturers, importers or distributors to sell their cosmetic / personal care products in the UK / GB market. Iwo CPSS Ltd as ‘a legal or natural person will work closely with you advising on compliance of your cosmetic / personal care product and other relevant obligations set out in the UK Cosmetics Regulation.  The goal is to help you 
+notify your product via the UK Submit Cosmetic Product Notification (SCPN) Portal for sale in the UK market.
                   </p>
                 </Disclosure.Panel>
               </>
@@ -115,31 +102,72 @@ const Faq = () => {
                     </svg>
                   )}
                   <span className="text-[20px] font-popping text-[#333333] font-bold">
-                  As Your Responsible Person (RP) For UK / GB And EU Market                  </span>
+                  Want To Sell In The European Union (EU)                </span>
                 </Disclosure.Button>
-                <Disclosure.Panel className="px-4 text-start sm:ml-[70px] pt-4 pb-2  text-gray-500">
+                <Disclosure.Panel className="px-4 text-start sm:ml-[70px] pt-4 pb-2  text-[#595959]">
                   <p className="text-[15px] py-4">
-                  Iwo Cosmetic Products Safety Solutions Ltd and EU colleagues will do the following:
-
-                    {" "}
-                    The law states that before a cosmetic product can be sold in
-                    the UK / EU market, it must have the <br /> following as a
-                    minimum: <br />
-                  </p>
-                  <p className="text-[15px] ">
-                    1. Produce CPSR for your cosmetic product.
-
-                  </p>
-                  <p className="text-[15px] py-4"> 2. Prepare or review your cosmetic product label.</p>
-                  <p className="text-[15px] ">3. (a) Notify your product on the UK Submit Cosmetic Notification (UK SCPN) Portal</p>
-                  <p className="text-[15px] py-4">
-                 4. (b) Notify your product on the Cosmetic Product Notification Portal (CPNP)
+                  Are you a Manufacturer based outside the EU and wish to sell your product in the EU market, Iwo CPSS Ltd. collaborates with RP colleagues in Europe who will work closely with you advising on 
+compliance of your product with the relevant obligations set out in the EU Cosmetics Regulation. The goal is to help you notify your product via the EU Cosmetic Product Notification Portal (CPNP) for sale in the EU market.
 .
                   </p>
-                  <p className="text-[15px] py-4">
-                 5. Prepare updates for your cosmetic product – where applicable.
-.
+                </Disclosure.Panel>
+              </>
+            )}
+          </Disclosure>
+
+
+          <Disclosure  as="div" className="mt-10">
+            {({ open }) => (
+              <>
+                <Disclosure.Button className="flex   w-full ">
+                  {open ? (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-10 h-10"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M18 12H6"
+                      />
+                    </svg>
+                  ) : (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-12 h-12"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 6v12m6-6H6"
+                      />
+                    </svg>
+                  )}
+                  <span className="text-[20px] font-popping text-[#333333] font-bold">
+                  Documents Needed Before Marketing Your Product           </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 text-start sm:ml-[70px] pt-4 pb-2  text-[#595959] ">
+                  <p>
+                  Minimum Requirements
                   </p>
+                  <p className="text-[15px] py-4">
+                  ➢  Cosmetic Product Safety Report (CPSR) <br />
+➢  Product Information File (PIF) <br />
+➢  Notification via UK SCNP or EU CPNP <br />
+
+Iwo Cosmetic Products Safety Solutions Ltd. will produce for you Cosmetic Product Safety Reports (CPSR) and Product Information File (PIF), prepare and conduct notification of your compliant 
+cosmetic / personal care product on the UK / GB market. Colleagues will do likewise for your product entering the EU market.
+                  </p>
+                
+              
                 </Disclosure.Panel>
               </>
             )}
@@ -182,10 +210,118 @@ const Faq = () => {
                   <span className="text-[20px] font-popping text-[#333333] font-bold">
                   Labels and Packaging                 </span>
                 </Disclosure.Button>
-                <Disclosure.Panel className="px-4 text-start sm:ml-[70px] pt-4 pb-2  text-gray-500">
+                <Disclosure.Panel className="px-4 text-start sm:ml-[70px] pt-4 pb-2  text-[#595959]">
                   <p className="text-[15px] py-4">
                   In addition to CPSR, Iwo CPSS Ltd. prepares UK / EU compliant INCI label and other necessary information such as the cosmetic ingredient listing, instruction of use including any relevant 
 precautions and warnings to be included on the product primary and if applicable, secondary packaging.
+                  </p>
+                
+              
+                </Disclosure.Panel>
+              </>
+            )}
+          </Disclosure>
+
+
+
+          <Disclosure  as="div" className="mt-10">
+            {({ open }) => (
+              <>
+                <Disclosure.Button className="flex   w-full ">
+                  {open ? (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-10 h-10"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M18 12H6"
+                      />
+                    </svg>
+                  ) : (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-12 h-12"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 6v12m6-6H6"
+                      />
+                    </svg>
+                  )}
+                  <span className="text-[20px] font-popping text-[#333333] font-bold">
+                  Other Safety Assessments              </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 text-start sm:ml-[70px] pt-4 pb-2  text-[#595959]">
+                  <p className="text-[15px] py-4">
+                  WORLD REGULATORY COSMETIC SAFETY REPORTS
+Iwo Cosmetic Products Safety Solutions Ltd. also produces cosmetic safety assessment reports for other world regulatory regimes (e.g. ASEAN, CANADA,SASO /GULF STATES, USA, etc.).
+                  </p>
+                
+              
+                </Disclosure.Panel>
+              </>
+            )}
+          </Disclosure>
+
+
+          <Disclosure  as="div" className="mt-10">
+            {({ open }) => (
+              <>
+                <Disclosure.Button className="flex   w-full ">
+                  {open ? (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-10 h-10"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M18 12H6"
+                      />
+                    </svg>
+                  ) : (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-12 h-12"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 6v12m6-6H6"
+                      />
+                    </svg>
+                  )}
+                  <span className="text-[20px] font-popping text-[#333333] font-bold">
+                  Knowledge Gap Analysis            </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 text-start sm:ml-[70px] pt-4 pb-2  text-[#595959]">
+                  <p className="text-[15px] py-4">
+                  PHYSICAL TESTING
+NON-COSMETIC CHEMICAL CONSUMER PRODUCTS
+Other general safety services offered by Iwo Cosmetic Products Safety Solutions Ltd. include: <br />
+➢   General Product Safety Assessment <br />
+e.g. ………………… <br />
+➢   Chemical Toys  <br />
+➢      Chemical Household Products, etc.
                   </p>
                 
               

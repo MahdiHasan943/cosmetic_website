@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { FaArrowUp,FaAngleDown } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { navVariants } from "@/utils/motion";
+import { fadeIn,slideIn,textVariant2 ,staggerContainer} from "@/utils/motion";
 
 const Top = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -30,13 +30,19 @@ const Top = () => {
 
   return (
   <>
-      {isVisible && (
-      //  top-[96%] 
-           <motion.div variants={navVariants}  inherit="hidden" whileInView="show" className="Top fixed  top-[90%]   z-50 right-[35px] bg-gradient-to-t from-cyan-500 to-blue-500    top-btn  py-4 px-4 rounded-full " onClick={goToBtn}>
-          <FaArrowUp  className="hover:rotate-[180deg]  animate-bounce transition delay-350 text-white" />
-        </motion.div>
-       
-      )}
+     {isVisible && (
+        //  top-[96%] 
+             <motion.div variants={staggerContainer}
+             initial="hidden"
+             whileInView="show"
+             viewport={{ once: false, amount: 0.25 }}  className="Top overflow-hidden fixed  top-[90%]    transition  delay-500 z-50 right-[35px] " onClick={goToBtn}>
+            <motion.div variants={slideIn('right', 'tween', 0.2, 1)}  className=" bg-gradient-to-t from-cyan-500 to-blue-500   top-btn  py-4 px-4 rounded-full ">
+            <FaArrowUp className="   text-white" />
+
+               </motion.div>
+          </motion.div>
+         
+        )}
    </>
   );
 };

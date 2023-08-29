@@ -27,9 +27,9 @@ const Hero = () => {
           <div className="">
               <div className="md:flex relative gap-5">
                   <img className="absolute star" src="/images/start.webp" alt="" />
-                  <img className="mx-auto mt-auto w-[179px] h-[328px]" src="/images/hero1.webp" alt="women" />
-                  <img className="mx-auto my-5 md:my-auto w-[179px] h-[328px]" src="/images/hero2.webp" alt="women" />
-                  <img className="mx-auto w-[258px] h-[504px]" src="/images/hero3.webp" alt="beauty girl" />
+                  <img className="mx-auto mt-auto w-[179px] h-[328px]" src="/images/heroOne.webp" alt="women" />
+                  <img className="mx-auto my-5 md:my-auto w-[179px] h-[328px]" src="/images/heroTwo.webp" alt="women" />
+                  <img className="mx-auto w-[258px] h-[504px]" src="/images/heroThree.webp" alt="beauty girl" />
 
               </div>
       </div>
