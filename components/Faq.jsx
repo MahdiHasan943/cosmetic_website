@@ -18,7 +18,8 @@ const Faq = () => {
 
       <div className="w-full  px-4 pt-16">
         <div className="mx-auto  lg:w-[50%] rounded-2xl bg-white p-2">
-          <Disclosure defaultOpen>
+       
+          <Disclosure >
             {({ open }) => (
               <>
                 <Disclosure.Button className="flex  w-full ">
