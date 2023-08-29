@@ -6,7 +6,7 @@ import { textVariant2 } from "@/utils/motion";
 const About = () => {
   return (
     <>
-    <div className="" id="About">
+    <div className="sm:px-16  px-4 py-8" id="About">
       <motion.h2 variants={textVariant2} initial="hidden" whileInView="show" className="font-popping py-10 text-[36px] leading-[60px] text-center font-bold text-[#333333] ">
         About Us
       </motion.h2>
@@ -30,10 +30,7 @@ address in the UK / GB are permitted to place a cosmetic products directly in th
 distributor will require to designate in writing a Responsible Person with an address in the UK / GB to assist in its sale of their cosmetic market products in 
 the UK.
             </p>
-          <button className="bg-[#D5D5D5] mt-4 mb-10 py-3 px-16  gm:px-20 relative rounded-full">
-            <img className="absolute left-3  top-2 " src="/images/whatApp.svg" alt="" />
-            <span className="font-lato text-[15px]">FREE CONSULTATION</span>
-          </button>
+        
         </div>
           <div className="flex justify-center">
             <img className="sm:h-[321px]" src="images/group.png" alt="" />
@@ -53,13 +50,13 @@ the UK.
       
       </div>
       {/* experience */}
-      <div className="bg-[#F6F6F6] py-8 px-4 sm:px-16">
+      <div className="bg-[#F6F6F6] py-8 sm:px-16  px-4 ">
         <p className="font-popping text-[16px] font-bold">Experience</p>
         <p className="font-popping text-[15px] py-3">
         IWO Cosmetic Product Safety Solutions Ltd. (abbreviated to Iwo CPSS Ltd) has 20 year’s experience in the field of regulatory and cosmetic product safety and has helped bring to market brand name products.  Iwo CPSS Ltd also assists micro-, small and medium sized businesses.  
 
         </p>
-        <p className="font-popping text-[15px] ">
+        <p className="font-popping py-6 text-[15px] ">
         Contact Iwo CPSS Ltd for your:
 
         </p>

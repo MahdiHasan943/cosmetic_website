@@ -185,14 +185,14 @@ const Services = () => {
   });
 
   return (
-    <div id="Services" className="pb-20">
+    <div id="Services" className="pb-20 sm:px-16  px-4">
       <motion.h2 variants={textVariant2} initial="hidden" whileInView="show" className="font-popping py-10 text-[36px] leading-[60px] text-center font-bold text-[#333333] ">
         Our Services
       </motion.h2>
 
       <div className="w-full mx-auto   ">
         <Tab.Group>
-          <Tab.List className="flex space-x-1  mx-auto focus:border-0 sm:w-[60%] md:w-[50%] justify-center focus:outline-none  sm:p-1">
+          {/* <Tab.List className="flex space-x-1  mx-auto focus:border-0 sm:w-[60%] md:w-[50%] justify-center focus:outline-none  sm:p-1">
             {Object.keys(categories).map((category) => (
               <Tab
                 key={category}
@@ -209,9 +209,8 @@ const Services = () => {
                 {category}
               </Tab>
             ))}
-          </Tab.List>
+          </Tab.List> */}
           <Tab.Panels className="mt-2  w-full relative">
-            <img className="absolute top-[-100px] left-0" src="/images/stars.png" alt="" />
             {Object.values(categories).map((posts, idx) => (
               <Tab.Panel
                 key={idx}

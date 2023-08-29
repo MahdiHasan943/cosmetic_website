@@ -5,8 +5,8 @@ import { footerVariants } from '@/utils/motion'
 
 const Footer = () => {
   return (
-      <motion.div variants={footerVariants} initial="hidden" whileInView="show">
-          <div  className="py-20 ">
+      <motion.div className='sm:px-16  px-4' variants={footerVariants} initial="hidden" whileInView="show">
+          <div  className="py-20  ">
               
               <div className="text-center lg:text-start lg:flex justify-between  gap-4">
                   <div className="py-10 lg:py-0">

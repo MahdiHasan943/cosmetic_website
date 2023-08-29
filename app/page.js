@@ -21,7 +21,7 @@ export default function Home() {
     },1000)
   },[])
   return (
-    <main className="sm:px-16  px-6">
+    <main className="">
       
       {looading ? (<div className="flex justify-center text-center h-[100vh]  w-full ">
 

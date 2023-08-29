@@ -16,7 +16,7 @@ const Review = () => {
   return (
     <>
       
-      <div className=" py-10 ">
+      <div className=" py-10 sm:px-16  px-4">
 
         <motion.p variants={textVariant2} initial="hidden" whileInView="show" className="py-10 font-popping text-[#333] text-center text-[36px] leading-[60px] font-bold">
           Customer Reviews
