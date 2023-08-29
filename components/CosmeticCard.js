@@ -98,7 +98,7 @@ const CosmeticCard = () => {
               {
                   cosmeticArd.map(card => (
                       <div className="shadow-summery rounded-md my-4 px-4 py-4">
-                          <h2 className='text-[26px]  text-[#333] text-center font-semibold py-3'>{card.title}</h2>
+                          <h2 className='text-[26px]  text-[#333]  font-semibold py-3'>{card.title}</h2>
                           <div className="sm:flex   gap-2">
                               <img src={`/images/${card.img}`} alt="" />
                               <div className="mt-4 sm:mt-0 ">
