@@ -105,7 +105,7 @@ function Nav() {
       </li>
       <div className="px-2 flex gap-4 items-center justify-between">
           <button className="hidden lg:block font-lato  bg-[#313131] rounded-lg text-white px-3 py-2 text-[13px]">
-            Book Now
+          Get in touch
           </button>
           <div className="hidden nm:block">
           <img className="inline" src="/images/whatsapp.svg" alt="whatsapp" />
