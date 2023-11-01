@@ -9,7 +9,7 @@ const index = () => {
       <Services/>     
 
       
-      <div className="px-4 sm:px-16">
+      <div className="px-4 py-12 sm:px-16">
 
         <p className='font-lato text-[#121212] text-[18px] sm:text-[26px] font-semibold '>Other World Regulatory Cosmetic Product Safety Reports</p>
         <div className="lg:grid py-6 grid-cols-2 gap-4">
