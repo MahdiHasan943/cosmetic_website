@@ -6,7 +6,7 @@ import { textVariant2 } from "@/utils/motion";
 const About = () => {
   return (
     <>
-    <div className="sm:px-16  px-4 py-8" id="About">
+    <div className="sm:px-16 bg-[#F6F6F6]  px-4 py-8" id="About">
       <motion.h2 variants={textVariant2} initial="hidden" whileInView="show" className="font-popping py-10 text-[36px] leading-[60px] text-center font-bold text-[#333333] ">
         About Us
         </motion.h2>
@@ -51,7 +51,7 @@ the UK.
       
       </div>
       {/* experience */}
-      <div className="bg-[#F6F6F6] py-8 sm:px-16  px-4 ">
+      <div className="py-8 sm:px-16  px-4 ">
         <p className="font-popping text-[16px] font-bold">Experience</p>
         <p className="font-popping text-[15px] py-3">
         IWO Cosmetic Product Safety Solutions Ltd. (abbreviated to Iwo CPSS Ltd) has 20 year’s experience in the field of regulatory and cosmetic product safety and has helped bring to market brand name products.  Iwo CPSS Ltd also assists micro-, small and medium sized businesses.  

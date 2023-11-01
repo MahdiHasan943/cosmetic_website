@@ -29,6 +29,7 @@ export default function Home() {
         className='w-[100px] h-[100px] mx-auto '
       />
       </div>) : (<>
+        <Hero/>
       {/* <Review />
       <Services /> */}
    

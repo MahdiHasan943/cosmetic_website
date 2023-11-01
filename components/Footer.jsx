@@ -58,7 +58,7 @@ const Footer = () => {
 
                   <div className="py-10 lg:py-0">
                       <p className='footerHeadText text-[28px] leading-[40px] font-popping'>Our Hours</p>
-                      <p className='font-lato text-[16px] '>MON-SAT 08:00 – 20:00SUN  <br /> 10:00 – 17:00</p>
+                      <p className='font-lato text-[16px] '>MON-SAT 08:00 – 18:00  <br /> </p>
                       <p className='footerHeadText mt-4 text-[28px] leading-[40px] font-popping'>Follow us</p>
                       <div className="flex justify-center mt-2 lg:mt-0 lg:justify-start sm:ml-[-5px] gap-3">
                           <img className='' src="/images/fb.svg" alt="fb" />

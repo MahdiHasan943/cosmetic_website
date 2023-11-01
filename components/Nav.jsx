@@ -127,7 +127,12 @@ function Nav() {
   );
 
   return (
-    <motion.nav variants={navVariants} initial="hidden" whileInView='show' className={`sm:px-16 px-6 py-5 sm:py-10 shadow-none w-[100vw] nav`}>
+    <motion.nav variants={navVariants} initial="hidden" whileInView='show'
+    
+    className={
+      icon === "nav__toggler" ? `  sm:px-16 px-6 py-5 sm:py-10 shadow-none w-[100vw]  md:z-[999] nav` : ` sm:px-16 px-6 py-5 sm:py-10 shadow-none w-[100vw] z-[999999999999!important] md:z-[999] nav`
+    }
+      >
       <div className={`flex w-full items-center  md:justify-end`}>
         <div className="flex overflow-hidden  items-center">
           <a
@@ -153,12 +158,13 @@ function Nav() {
         </div>
 
         <ul className={` ${active}`}>
-        <a
-             href={"/"}
+        <Link
+            href={'/'}
+            onClick={()=> navToggle()}
             className="menu_img shadow-none nav__brand PB"
           >
            <img className="w-[83px] h-[102px]" src='/images/logo.webp' alt="logo" />
-          </a>
+          </Link>
           {menu}
 
          

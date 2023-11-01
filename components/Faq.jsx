@@ -21,7 +21,7 @@ const Faq = () => {
           <Disclosure >
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex object-fill w-full ">
+                <Disclosure.Button className="flex w-full ">
                   {open ? (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@ const Faq = () => {
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="currentColor"
-                      className="w-6 h-6"
+                      className="w-10 h-6 sm:w-6 sm:h-6"
                     >
                       <path
                         strokeLinecap="round"
@@ -44,7 +44,7 @@ const Faq = () => {
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="currentColor"
-                      className=" w-6 h-6"
+                      className="w-10 h-6 sm:w-6 sm:h-6"
                     >
                       <path
                         strokeLinecap="round"
@@ -54,10 +54,10 @@ const Faq = () => {
                     </svg>
                   )}
 
-                  <span className="text-[20px] font-popping text-[#333333] font-bold">
+                  <span className="text-[20px] text-left font-popping text-[#333333] font-bold">
                   Want To Sell In The United Kingdom (UK)                  </span>
                 </Disclosure.Button>
-                <Disclosure.Panel className="px-4 text-start sm:ml-[15px] pt-4 pb-2    text-[#595959]">
+                <Disclosure.Panel className="px-4 sm text-start sm:ml-[15px] pt-4 pb-2    text-[#595959]">
                   <p className="text-[15px]">
                   Are you a Manufacturer based outside the UK and wish to sell your product in the UK / GB market, or are you based in the UK and need assistance with the UK legislation? Iwo CPSS Ltd is a Responsible Person (RP) with an address in the UK / GB (Great Britain – England, Scotland and Wales) assists manufacturers, importers or distributors to sell their cosmetic / personal care products in the UK / GB market. Iwo CPSS Ltd as ‘a legal or natural person will work closely with you advising on compliance of your cosmetic / personal care product and other relevant obligations set out in the UK Cosmetics Regulation.  The goal is to help you 
 notify your product via the UK Submit Cosmetic Product Notification (SCPN) Portal for sale in the UK market.
@@ -77,7 +77,7 @@ notify your product via the UK Submit Cosmetic Product Notification (SCPN) Porta
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="currentColor"
-                      className="w-6 h-6"
+                      className="w-10 h-6 sm:w-6 sm:h-6"
                     >
                       <path
                         strokeLinecap="round"
@@ -92,7 +92,7 @@ notify your product via the UK Submit Cosmetic Product Notification (SCPN) Porta
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="currentColor"
-                      className="w-6 h-6"
+                      className="w-10 h-6 sm:w-6 sm:h-6"
                     >
                       <path
                         strokeLinecap="round"
@@ -101,7 +101,7 @@ notify your product via the UK Submit Cosmetic Product Notification (SCPN) Porta
                       />
                     </svg>
                   )}
-                  <span className="text-[20px] font-popping text-[#333333] font-bold">
+                  <span className="text-[20px] text-left font-popping text-[#333333] font-bold">
                   Want To Sell In The European Union (EU)                </span>
                 </Disclosure.Button>
                 <Disclosure.Panel className="px-4 text-start sm:ml-[15px] pt-4 pb-2  text-[#595959]">
@@ -126,7 +126,7 @@ compliance of your product with the relevant obligations set out in the EU Cosme
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="currentColor"
-                      className="w-6 h-6"
+                      className="w-10 h-6 sm:w-6 sm:h-6"
                     >
                       <path
                         strokeLinecap="round"
@@ -141,7 +141,7 @@ compliance of your product with the relevant obligations set out in the EU Cosme
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="currentColor"
-                      className="w-6 h-6"
+                      className="w-10 h-6 sm:w-6 sm:h-6"
                     >
                       <path
                         strokeLinecap="round"
@@ -150,7 +150,7 @@ compliance of your product with the relevant obligations set out in the EU Cosme
                       />
                     </svg>
                   )}
-                  <span className="text-[20px] font-popping text-[#333333] font-bold">
+                  <span className="text-[20px] text-left font-popping text-[#333333] font-bold">
                   Documents Needed Before Marketing Your Product           </span>
                 </Disclosure.Button>
                 <Disclosure.Panel className="px-4 text-start sm:ml-[15px] pt-4 pb-2  text-[#595959] ">

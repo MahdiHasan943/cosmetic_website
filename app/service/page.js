@@ -1,10 +1,12 @@
+import Hero from '@/components/Hero'
+import Services from '@/components/Services'
 import React from 'react'
 
 const index = () => {
   return (
-      <div>
-          
-ddd
+    <div>
+      <Hero/>
+      <Services/>     
 
     </div>
   )

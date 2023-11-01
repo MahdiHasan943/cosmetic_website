@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
               
         <main className='app mx-auto shadow-lg max-w-[1500px]'>
           <Nav />
-          <Hero/>
+       
           {children}
           <Contact/>
       <Footer />
