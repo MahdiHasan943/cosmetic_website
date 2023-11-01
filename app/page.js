@@ -28,9 +28,9 @@ export default function Home() {
         alt='loader'
         className='w-[100px] h-[100px] mx-auto '
       />
-      </div>): (<><Hero />
-      <Review />
-      <Services />
+      </div>) : (<>
+      {/* <Review />
+      <Services /> */}
    
       <About />
       <Faq />

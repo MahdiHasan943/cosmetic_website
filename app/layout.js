@@ -3,6 +3,7 @@ import '../styles/globals.css'
 import { Inter } from 'next/font/google'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
+import Hero from '@/components/Hero'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,7 +30,8 @@ export default function RootLayout({ children }) {
               </div> */}
               
         <main className='app mx-auto shadow-lg max-w-[1500px]'>
-                   <Nav/>
+          <Nav />
+          <Hero/>
           {children}
           <Contact/>
       <Footer />

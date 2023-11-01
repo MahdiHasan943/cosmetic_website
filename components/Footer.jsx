@@ -2,8 +2,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { footerVariants } from '@/utils/motion'
+import Link from 'next/link'
 
 const Footer = () => {
+
   return (
       <motion.div className='sm:px-16  px-4' variants={footerVariants} initial="hidden" whileInView="show">
           <div  className="py-20  ">
@@ -11,9 +13,9 @@ const Footer = () => {
               <div className="text-center lg:text-start lg:flex justify-between  gap-4">
                   <div className="py-10 lg:py-0">
                       <p className='footerHeadText text-[28px] leading-[40px] font-popping'>Menu</p>
-                      <a href="#"><p className='mt-2 lg:mt-0  font-lato text-[16px]'>Home</p> </a>
-                      <a href="#About"><p className='font-lato py-2 text-[16px] '>About Us</p></a> 
-                     <a href="#Services"><p className='font-lato text-[16px] '>Our Services</p></a> 
+                      <Link href={'/'}><p className='mt-2 lg:mt-0  font-lato text-[16px]'>Home</p> </Link>
+                      <a href="#About"><p className='font-lato py-2 text-[16px]'>About Us</p></a> 
+                     <Link href={'/service'}><p className='font-lato text-[16px] '>Our Services</p></Link> 
                       <a href="#Contact"><p className='font-lato py-2 text-[16px] '>Contact Us</p></a> 
                   </div>
                   <div className="">
