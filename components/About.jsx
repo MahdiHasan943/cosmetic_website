@@ -11,30 +11,33 @@ const About = () => {
         About Us
         </motion.h2>
         <p className="font-popping text-[#333333] text-[22px] leading-[30px]  ">
-            <span className="font-bold">Iwo Cosmetic Products Safety Solutions Ltd.</span> (abbreviated to <span className="font-bold">Iwo CPSS
-            Ltd.</span> ) is a consultancy business with specialism mainly in the fields of cosmetics and chemical consumer products regulation and safety.
+            <span className="font-bold">Iwo Cosmetic Products Safety Solutions Ltd.</span> 
+
+          
+ is a consultancy business with specialism mainly in the fields of regulation and safety of cosmetics and chemical consumer products.
 
             </p>
             
-      <div className="mx-auto  lg:grid grid-cols-2 items-center justify-center gap-6">
-        <div className="">
+      <div className="mx-auto lg:grid grid-cols-3  justify-center gap-6">
+        <div className="col-span-2">
       
             <p className="font-popping text-[#333333] text-[16px] leading-[30px]  py-4">
-            A necessary requirement for marketing a cosmetic product in the 
-UK or EU, is for a Safety Assessor / Toxicologist or other qualified person to produce a Cosmetic Product Safety Report (CPSR), Part A (Safety Information) and Part B (Safety Assessment) to comply with the UK / EU Cosmetics Regulation.  Since Britain left the EU (Brexit) on the 31st December 2020, the UK market comprises England, Scotland and Wales only.  Northern Ireland is now part of the EU but however has “unfettered” access to the UK / GB market. 
+          
+            A necessary requirement for marketing a cosmetic product in the United Kingdom (UK) or the European Union (EU), is for a Safety Assessor / Toxicologist or other qualified person to produce a Cosmetic Product Safety Report (CPSR), Part A (Safety Information) and Part B (Safety Assessment) to comply with the UK / EU Cosmetics Regulation. Also, you will require a Responsible Person (RP) to oversee the cosmetic product safety, its 'making available' on the market and all matters concerning its safe marketing. If you are resident in the UK or EU, you can be the RP, otherwise you are obligated to designate in writing an RP who has an address in either of these places.
+
+Since the UK left the EU on the 31st December 2020 (Brexit), the UK market now comprises England, Scotland and Wales only (UK / GB). Northern Ireland is now part of the EU but however has an “unfettered” access to the UK / GB market.
             </p>
             <p className="font-popping text-[#333333] text-[22px] leading-[30px] font-bold ">   Impact of Brexit</p>
             <p className="font-popping text-[#333333] text-[16px] leading-[30px] ">
          
-Brexit meant that the United Kingdom now has its own independent UK Cosmetics Regulation separate from the European Union (EU). Only manufacturers, importers, distributors and Safety Assessors with an 
-address in the UK / GB are permitted to place a cosmetic products directly in the UK / GB market.  Thus, a non-UK / GB manufacturers / importer or 
-distributor will require to designate in writing a Responsible Person with an address in the UK / GB to assist in its sale of their cosmetic market products in 
-the UK.
+            
+
+Brexit meant that the UK now has its own independent UK Cosmetics Regulation separate from the EU. Only manufacturers, importers, distributors and Safety Assessors with an address in the UK / GB are permitted to place a cosmetic product directly in the UK / GB market. Thus, a non-UK / GB manufacturer / importer or distributor will be required to designate in writing an RP with an address in the UK / GB to assist in the sale / marketing of its cosmetic product in the UK.
             </p>
         
         </div>
-          <div className="flex justify-center">
-            <img className="sm:h-[321px]" src="images/group.png" alt="" />
+          <div className=" w-[300px] justify-center">
+            <img className="w-[270px] h-[357px]" src="images/AboutWomen.png" alt="" />
           {/* <div className="mx-auto  ">
               <div className="bg-[#eceff4] rounded-xl mb-5 md:mb-0  sm:bg-none ">
               <img
