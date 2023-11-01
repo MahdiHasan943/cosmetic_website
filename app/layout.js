@@ -1,6 +1,8 @@
 import Nav from '@/components/Nav'
 import '../styles/globals.css'
 import { Inter } from 'next/font/google'
+import Contact from '@/components/Contact'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,7 +30,9 @@ export default function RootLayout({ children }) {
               
         <main className='app mx-auto shadow-lg max-w-[1500px]'>
                    <Nav/>
-                  {children}
+          {children}
+          <Contact/>
+      <Footer />
 
               </main>
         

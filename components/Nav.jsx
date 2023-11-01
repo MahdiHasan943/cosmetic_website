@@ -23,37 +23,41 @@ function Nav() {
   const menu = (
     <React.Fragment>
       <li className=" group  transition-all duration-300 ease-in-out nav__item item">
-        <a
-          href="#"
+        <Link 
+          href="/"
           onClick={() => {
             navToggle();
             setColor(true);
           }}
           className={`${
             color === true
-              ? "text-cyan-500   bg-left-bottom bg-gradient-to-t from-cyan-500 to-blue-500     pb-3  md:pb-5       bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
+              ? "text-cyan-500  group  transition-all duration-300 ease-in-out      "
               : "text-white md:text-[#313131]"
           } nav__link`}
         >
           Home
-        </a>
+          <div className="bg-left-bottom bg-gradient-to-t from-cyan-500 to-blue-500    pb-3  md:pb-2      bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] duration-500 ease-out"></div>
+
+        </Link>
       </li>
 
       <li className="group  transition-all duration-300 ease-in-out  item nav__item">
-        <a
-          href="#Services"
+        <Link href={'/service'}
+        
           onClick={() => {
             navToggle();
             setColor("p");
           }}
           className={`${
             color === "p"
-              ? "text-cyan-500      bg-left-bottom bg-gradient-to-t from-cyan-500 to-blue-500     pb-3  md:pb-5       bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
-              : "text-white md:text-[#313131]"
+            ? "text-cyan-500  group  transition-all duration-300 ease-in-out      "
+            : "text-white md:text-[#313131]"
           } nav__link`}
         >
-         Our Services
-        </a>
+          Our Services
+          <div className="bg-left-bottom bg-gradient-to-t from-cyan-500 to-blue-500    pb-3  md:pb-2      bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] duration-500 ease-out"></div>
+
+        </Link>
       </li>
       <li className="group  transition-all duration-300 ease-in-out  nav__item">
         <a
@@ -64,11 +68,13 @@ function Nav() {
           }}
           className={`${
             color === "c"
-              ? "text-cyan-500           bg-left-bottom bg-gradient-to-t from-cyan-500 to-blue-500     pb-3  md:pb-5       bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
-              : "text-white md:text-[#313131]"
+            ? "text-cyan-500  group  transition-all duration-300 ease-in-out      "
+            : "text-white md:text-[#313131]"
           } nav__link`}
         >
-        About Us
+          About Us
+          <div className="bg-left-bottom bg-gradient-to-t from-cyan-500 to-blue-500    pb-3  md:pb-2      bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] duration-500 ease-out"></div>
+
         </a>
       </li>
       <li className="group  transition-all duration-300 ease-in-out nav__item item">
@@ -80,11 +86,13 @@ function Nav() {
           }}
           className={`${
             color === "m"
-              ? "text-cyan-500            bg-left-bottom bg-gradient-to-t from-cyan-500 to-blue-500     pb-3  md:pb-5       bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
-              : "text-white md:text-[#313131]"
+            ? "text-cyan-500  group  transition-all duration-300 ease-in-out      "
+            : "text-white md:text-[#313131]"
           } nav__link`}
         >
-        FAQs
+          FAQs
+          <div className="bg-left-bottom bg-gradient-to-t from-cyan-500 to-blue-500    pb-3  md:pb-2      bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] duration-500 ease-out"></div>
+
         </a>
       </li>
       <li className="group  transition-all duration-300 ease-in-out nav__item item">
@@ -96,11 +104,13 @@ function Nav() {
           }}
           className={`${
             color === "people"
-              ? "text-cyan-500              bg-left-bottom bg-gradient-to-t from-cyan-500 to-blue-500     pb-3  md:pb-5       bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
-              : "text-white md:text-[#313131]"
+            ? "text-cyan-500  group  transition-all duration-300 ease-in-out      "
+            : "text-white md:text-[#313131]"
           } nav__link`}
         >
-         Contact Us
+          Contact Us
+          <div className="bg-left-bottom bg-gradient-to-t from-cyan-500 to-blue-500    pb-3  md:pb-2      bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] duration-500 ease-out"></div>
+
         </a>
       </li>
       <div className="px-2 flex gap-4 items-center justify-between">
@@ -124,7 +134,6 @@ function Nav() {
              
             className=" shadow-none nav__brand PB"
           >
-           <img className="w-[83px] h-[102px]" src='/images/logo.webp' alt="logo" />
           </a>
         </div>
         <div className="">       
