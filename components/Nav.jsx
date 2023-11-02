@@ -60,8 +60,8 @@ function Nav() {
         </Link>
       </li>
       <li className="group  transition-all duration-300 ease-in-out  nav__item">
-        <a
-          href="#About"
+        <Link
+          href={"/#About"}
           onClick={() => {
             navToggle();
             setColor("c");
@@ -75,11 +75,11 @@ function Nav() {
           About Us
           <div className="bg-left-bottom bg-gradient-to-t from-cyan-500 to-blue-500    pb-3  md:pb-2      bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] duration-500 ease-out"></div>
 
-        </a>
+        </Link>
       </li>
       <li className="group  transition-all duration-300 ease-in-out nav__item item">
-        <a
-          href="#FAQs"
+        <Link
+          href={"/#FAQs"}
           onClick={() => {
             navToggle();
             setColor("m");
@@ -93,7 +93,7 @@ function Nav() {
           FAQs
           <div className="bg-left-bottom bg-gradient-to-t from-cyan-500 to-blue-500    pb-3  md:pb-2      bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] duration-500 ease-out"></div>
 
-        </a>
+        </Link>
       </li>
       <li className="group  transition-all duration-300 ease-in-out nav__item item">
         <a
@@ -117,10 +117,10 @@ function Nav() {
           <button className="hidden lg:block font-lato  bg-[#313131] rounded-lg text-white px-3 py-2 text-[13px]">
           Get in Contact
           </button>
-          <div className="hidden nm:block">
+          <a href="https://wa.me/004407539466779" className="hidden nm:block">
           <img className="inline" src="/images/whatsapp.svg" alt="whatsapp" />
           <span className="font-lato">00 44 (0)  7539 466 779</span>
-          </div>
+          </a>
 
         </div>
     </React.Fragment>
@@ -142,18 +142,7 @@ function Nav() {
           </a>
         </div>
         <div className="">       
-<form className="hidden xl:block">   
-    <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-    <div class="relative ">
-        <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
-            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
-            </svg>
-        </div>
-        <input type="search" id="default-search" class="block px-4 w-full py-2 outline-none  focus:outline:none  bg-[#F5F5F5] rounded-full" placeholder="" required/>
-        {/* <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button> */}
-    </div>
-</form>
+
 
         </div>
 
