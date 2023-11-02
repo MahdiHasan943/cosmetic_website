@@ -135,12 +135,12 @@ const CosmeticCard = () => {
                       <div className=" rounded-md my-4 px-4 py-4">
                           <h2 className='text-[26px]  text-[#333]  font-semibold py-3'>{card.title}</h2>
                           <div className="sm:flex   gap-2">
-                              <img src={`/images/${card.img}`} alt="" />
+                              <img className='sm:w-[272px] h-[360px]' src={`/images/${card.img}`} alt="" />
                               <div className="mt-4 pt-4 font-lato text-[15px] font-semibold sm:mt-0 ">
                                   <p className='mb-4'>{card.del}</p>
-                                  <p className='py-4'>{card?.uk}</p>
-                                  <p className='py-4'>{card?.ue}</p>
-                                  <p className='py-4'>{card?.ue1}</p>
+                                  <p className=''>{card?.uk}</p>
+                                  <p className=''>{card?.ue}</p>
+                                  <p className=''>{card?.ue1}</p>
 
                                   <p>{card?.yes}</p>
 
