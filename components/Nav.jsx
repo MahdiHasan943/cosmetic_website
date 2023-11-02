@@ -117,7 +117,7 @@ function Nav() {
           <button className="hidden lg:block font-lato  bg-[#313131] rounded-lg text-white px-3 py-2 text-[13px]">
           Get in Contact
           </button>
-          <a href="tel:+8801843412068" className="hidden nm:block">
+          <a href="#" className="hidden nm:block">
           <span className="font-lato">00 44 (0)  7539 466 779</span>
           </a>
 
