@@ -1,5 +1,6 @@
 import Hero from '@/components/Hero'
 import Services from '@/components/Services'
+import Top from '@/components/Top'
 import React from 'react'
 
 const index = () => {
@@ -45,6 +46,7 @@ const index = () => {
         </div>
         
       </div>
+      <Top/>
     </div>
   )
 }

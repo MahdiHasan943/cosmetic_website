@@ -328,6 +328,238 @@ e.g. ………………… <br />
               </>
             )}
           </Disclosure>
+
+          {/* 1 */}
+
+          <Disclosure  as="div" className="mt-10">
+            {({ open }) => (
+              <>
+                <Disclosure.Button className="flex   w-full ">
+                  {open ? (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M18 12H6"
+                      />
+                    </svg>
+                  ) : (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 6v12m6-6H6"
+                      />
+                    </svg>
+                  )}
+                  <span className="text-[20px] font-popping text-[#333333] font-bold">
+                  Physical Testing
+         </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 text-start sm:ml-[15px] pt-4 pb-2  text-[#595959]">
+                  <p className="text-[15px] py-4">
+                
+
+E.g. Microbiological Tests, etc. <br />
+Non-Cosmetic Chemical Consumer Products <br />
+E.g.
+
+
+
+
+
+
+
+
+
+
+
+                  </p>
+                
+              
+                </Disclosure.Panel>
+              </>
+            )}
+          </Disclosure>
+          {/* 2 */}
+
+          <Disclosure  as="div" className="mt-10">
+            {({ open }) => (
+              <>
+                <Disclosure.Button className="flex   w-full ">
+                  {open ? (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M18 12H6"
+                      />
+                    </svg>
+                  ) : (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 6v12m6-6H6"
+                      />
+                    </svg>
+                  )}
+                  <span className="text-[20px] text-left font-popping text-[#333333] font-bold">
+                  Other general safety services offered by Iwo Cosmetic Products Safety Solutions Ltd. include
+         </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 text-start sm:ml-[15px] pt-4 pb-2  text-[#595959]">
+                  <p className="text-[15px] py-4">
+                  ➢ General Product Safety Assessment <br />
+➢ Chemical Toys <br />
+➢ Chemical Household Products, etc. <br />
+                  </p>
+                
+              
+                </Disclosure.Panel>
+              </>
+            )}
+          </Disclosure>
+          {/* 3 */}
+          
+          <Disclosure  as="div" className="mt-10">
+            {({ open }) => (
+              <>
+                <Disclosure.Button className="flex   w-full ">
+                  {open ? (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M18 12H6"
+                      />
+                    </svg>
+                  ) : (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 6v12m6-6H6"
+                      />
+                    </svg>
+                  )}
+                  <span className="text-[20px] font-popping text-[#333333] font-bold">
+                
+Professional Memberships         </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 text-start sm:ml-[15px] pt-4 pb-2  text-[#595959]">
+      
+                <ul className=" ">
+  <li className="  list-disc">Cosmetics Consultants Europe (CCE)</li>
+  <li className="list-disc">European Professional Biologist (EUProfBiol)</li>
+  <li className="list-disc">Royal Society of Biology (RSB)</li>
+  <li className="list-disc">Society of Cosmetic Scientists, Nigeria (NICOS)</li>
+  <li className="list-disc">Society of Cosmetic Scientists, UK (SCS)</li>
+</ul>
+
+              
+                </Disclosure.Panel>
+              </>
+            )}
+          </Disclosure>
+
+          {/* 4 */}
+          
+          <Disclosure  as="div" className="mt-10">
+            {({ open }) => (
+              <>
+                <Disclosure.Button className="flex   w-full ">
+                  {open ? (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M18 12H6"
+                      />
+                    </svg>
+                  ) : (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 6v12m6-6H6"
+                      />
+                    </svg>
+                  )}
+                  <span className="text-[20px] font-popping text-[#333333] font-bold">
+                  Social Media address / handles          </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 text-start sm:ml-[15px] pt-4 pb-2  text-[#595959]">
+       
+                  <ul className=" ">
+  <li className="  list-disc"> Business e-mail address: mabel.iwobi@iwocpssl.com </li>
+  <li className="list-disc">LinkedIn: https://uk.linkedIn.com/in/mabel-u-iwobi </li>
+  <li className="list-disc">Skype: mabel.iwobi
+</li>
+
+</ul>
+                
+              
+                </Disclosure.Panel>
+              </>
+            )}
+          </Disclosure>
         </div>
       </div>
     </div>

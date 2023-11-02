@@ -4,6 +4,7 @@
 import About from "@/components/About";
 import Faq from "@/components/Faq";
 import Hero from "@/components/Hero";
+import ProfileBox from "@/components/ProfileBox";
 import Review from "@/components/Review";
 import Services from "@/components/Services";
 import Top from "@/components/Top";
@@ -33,7 +34,8 @@ export default function Home() {
       {/* <Review />
       <Services /> */}
    
-      <About />
+          <About />
+          <ProfileBox/>
       <Faq />
      
           <Top />
