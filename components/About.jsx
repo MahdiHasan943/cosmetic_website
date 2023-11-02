@@ -37,7 +37,7 @@ Brexit meant that the UK now has its own independent UK Cosmetics Regulation sep
         
         </div>
           <div className=" w-[300px] justify-center">
-            <img className="w-[270px] h-[357px]" src="images/AboutWomen.png" alt="" />
+            <img className="w-[270px] h-[357px]" src="images/flower.jpg" alt="" />
           {/* <div className="mx-auto  ">
               <div className="bg-[#eceff4] rounded-xl mb-5 md:mb-0  sm:bg-none ">
               <img

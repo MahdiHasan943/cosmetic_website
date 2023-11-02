@@ -400,7 +400,7 @@ E.g.
           <Disclosure  as="div" className="mt-10">
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex   w-full ">
+                <Disclosure.Button className="grid grid-cols-11 sm:grid-none sm:flex w-full ">
                   {open ? (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -432,7 +432,7 @@ E.g.
                       />
                     </svg>
                   )}
-                  <span className="text-[20px] text-left font-popping text-[#333333] font-bold">
+                  <span className="text-[20px] col-span-10 text-left font-popping text-[#333333] font-bold">
                   Other general safety services offered by Iwo Cosmetic Products Safety Solutions Ltd. include
          </span>
                 </Disclosure.Button>
