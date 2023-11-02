@@ -158,7 +158,7 @@ const CosmeticCard = () => {
               <div id="safty"   className=" rounded-md my-4 px-4 py-4">
                           <h2 className='text-[26px]  text-[#333]  font-semibold py-3'>Cosmetic Product Safety Report (CPSR)</h2>
                           <div  className="sm:flex   gap-2">
-                              <img className='sm:w-[272px] h-[360px]' src={`/images/newCosmeticCardsImg2.png`} alt="" />
+                              <img className='sm:w-[272px] h-[340px]' src={`/images/newCosmeticCardsImg2.png`} alt="" />
                               <div className="mt-4 pt-4 font-lato text-[15px] font-semibold sm:mt-0 ">
                                   <p className='mb-4'>Iwo CPSS Ltd prepares CPSRs for  manufacturers, importers and distributors. For large, medium and small businesses</p>
                                   <p className=' '> CPSR – Part A   </p>
