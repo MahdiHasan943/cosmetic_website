@@ -12,7 +12,7 @@ const index = () => {
       
       <div className="px-4 py-12 sm:px-16">
 
-        <p className='font-lato text-[#121212] text-[18px] sm:text-[26px] font-semibold '>Other World Regulatory Cosmetic Product Safety Reports</p>
+        <p className='text-[26px]  text-[#333]  font-semibold'>Other World Regulatory Cosmetic Product Safety Reports</p>
         <div className="lg:grid py-6 grid-cols-2 gap-4">
           <div className="sm:flex gap-4 items-end">
             <img className='mx-auto' src="./images/world1.png" alt="" />
@@ -21,7 +21,7 @@ const index = () => {
 
           </div>
           <div className="py-4 sm:py-0">
-            <p className='font-lato text-[20px]'>
+            <p className='font-lato text-[15px] font-semibold'>
             Want to sell your cosmetic product to other WORLD REGULATORY REGIMES                                                                                   
               Such as ASEAN, CANADA, SASO / GULF STATES, USA, etc.That is,  NON-UK / GB and NON-EU REGULATED COUNTRIES
                 
