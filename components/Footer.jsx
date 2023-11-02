@@ -34,7 +34,7 @@ const Footer = () => {
                              
                               <p className='font-lato text-[16px] '><Link href={'/service/#other'}> Other Safety Assessment</Link></p>
                               
-                              <p className='font-lato py-4 text-[16px] '><Link href={'/service/#file'}> Product Information File</Link></p>
+                              <p className='font-lato text-[16px] '><Link href={'/service/#file'}> Product Information File</Link></p>
                           </div>
                           
                       </div>
