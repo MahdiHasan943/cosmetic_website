@@ -3,7 +3,7 @@ import React from 'react'
 const CosmeticCard = () => {
     const cosmeticArd = [
         {
-            "id": '1',
+            "id": 'uk',
             "title": "Responsible Person (RP)",
             "img": "newCosmeticCardsImg.png",
             "del": "Iwo CPSS Ltd as a Responsible Person will assist you to bring your product to the UK and EU markets.",
@@ -18,7 +18,7 @@ const CosmeticCard = () => {
         },
 
         {
-            "id": '2',
+            "id": 'safty',
             "title": "Cosmetic Product Safety Report (CPSR)",
             "img": "newCosmeticCardsImg2.png",
             "del": "Iwo CPSS Ltd prepares CPSRs for  manufacturers, importers and distributors. For large, medium and small businesses",
@@ -33,7 +33,7 @@ const CosmeticCard = () => {
             "contact": " enquiries@iwocpssl.com  "
         },
         {
-            "id": '3',
+            "id": 'label',
             "title": "Labelling / Packaging",
             "img": "newCosmeticCardsImg3.png",
         
@@ -46,7 +46,7 @@ const CosmeticCard = () => {
             "contact": " enquiries@iwocpssl.com  "
         },
         {
-            "id": '4',
+            "id": 'file',
             "title": "Product Information File (PIF)",
             "img": "newCosmeticCardsImg4.png",
             "del": "            Iwo CPSS Ltd prepares your cosmetic product documentations (PIF) in readiness for compliance requests by UK / EU competent authorities.            ",
@@ -64,7 +64,7 @@ const CosmeticCard = () => {
 
         },
         {
-            "id": '5',
+            "id": 'physical',
             "title": "Physical Testing",
             "img": "newCosmeticCardsImg5.png",
             "del": "            Support Services:            ",
@@ -77,7 +77,7 @@ const CosmeticCard = () => {
 
         },
         {
-            "id": '6',
+            "id": 'knowledge',
             "title": "Knowledge Gap Analysiss",
             "img": "newCosmeticCardsImg6.png",
            
@@ -95,7 +95,7 @@ const CosmeticCard = () => {
             "contact": " enquiries@iwocpssl.com  "
         },
         {
-            "id": '7',
+            "id": 'other',
             "title": "Notification",
             "img": "newCosmeticCardsImg7.png",
             "del": "Iwo CPSS Ltd notifies your compliant products to the relevant notification portal. ",
@@ -113,7 +113,7 @@ const CosmeticCard = () => {
 
         },
         {
-            "id": '8',
+            "id": 'pack',
             "title": "Non-Cosmetic Chemical Consumer Products.",
             "img": "newCosmeticCardsImg8.png",
             "del": "  Want to sell your non-cosmetic, chemical consumer products in the United Kingdom (UK / GB)? Yes.  ",
@@ -132,9 +132,9 @@ const CosmeticCard = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 py-4 px-4 ">
               {
                   cosmeticArd.map(card => (
-                      <div className=" rounded-md my-4 px-4 py-4">
+                      <div id={card?.id}   className=" rounded-md my-4 px-4 py-4">
                           <h2 className='text-[26px]  text-[#333]  font-semibold py-3'>{card.title}</h2>
-                          <div className="sm:flex   gap-2">
+                          <div  className="sm:flex   gap-2">
                               <img className='sm:w-[272px] h-[360px]' src={`/images/${card.img}`} alt="" />
                               <div className="mt-4 pt-4 font-lato text-[15px] font-semibold sm:mt-0 ">
                                   <p className='mb-4'>{card.del}</p>

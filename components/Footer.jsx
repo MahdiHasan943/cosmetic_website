@@ -22,19 +22,19 @@ const Footer = () => {
                       <p className='text-center mb-4   footerHeadText text-[28px] leading-[40px] font-popping'>Services</p>
                       <div className="lg:flex text-center lg:text-start items-start gap-10">
                           <div className="">
-                              <p className=' font-lato text-[16px] '>UK Responsible Person</p>
-                              <p className='font-lato py-4 text-[16px] '>Cosmetic Product Safety <br /> Report</p> 
-                              <p className='font-lato text-[16px] '>INCI Label Preparation <br /> Or Label Review</p>
-                              <p className='font-lato mt-4 lg:mt-0 lg:py-4 text-[16px] '>Packaging</p>
+                              <p className=' font-lato text-[16px] '><Link href={'/service/#uk'}> UK Responsible Person</Link></p>
+                              <p className='font-lato py-4 text-[16px] '><Link href={'/service/#safty'}> Cosmetic Product Safety <br /> Report </Link></p> 
+                              <p className='font-lato text-[16px] '> <Link href={'/service/#label'}> INCI Label Preparation <br /> Or Label Review</Link></p>
+                              <p className='font-lato mt-4 lg:mt-0 lg:py-4 text-[16px] '><Link href={'/service/#pack'}>  Packaging </Link></p>
                           </div>
                           <div className="py-4 lg:py-0">
-                          <p className='font-lato text-[16px] '>Physical Test</p>
-                              <p className='font-lato py-4 text-[16px] '>Knowledge Gap Analysis</p> 
+                          <p className='font-lato text-[16px] '><Link href={'/service/#physical'}>  Physical Test</Link></p>
+                              <p className='font-lato py-4 text-[16px] '><Link href={'/service/#knowledge'}> Knowledge Gap Analysis </Link></p> 
                               
                              
-                              <p className='font-lato text-[16px] '>Other Safety Assessment</p>
+                              <p className='font-lato text-[16px] '><Link href={'/service/#other'}> Other Safety Assessment</Link></p>
                               
-                              <p className='font-lato py-4 text-[16px] '>Product Information File</p>
+                              <p className='font-lato py-4 text-[16px] '><Link href={'/service/#file'}> Product Information File</Link></p>
                           </div>
                           
                       </div>
