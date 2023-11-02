@@ -11,10 +11,10 @@ const About = () => {
         About Us
         </motion.h2>
         <p className="font-popping text-[#333333] text-[22px] leading-[30px]  ">
-            <span className="font-bold">Iwo Cosmetic Products Safety Solutions Ltd.</span> 
+            <span className="font-bold pr-2">Iwo Cosmetic Products Safety Solutions Ltd .</span> 
 
           
- is a consultancy business with specialism mainly in the fields of regulation and safety of cosmetics and chemical consumer products.
+       is a consultancy business with specialism mainly in the fields of regulation and safety of cosmetics and chemical consumer products.
 
             </p>
             
@@ -32,7 +32,7 @@ Since the UK left the EU on the 31st December 2020 (Brexit), the UK market now c
          
             
 
-Brexit meant that the UK now has its own independent UK Cosmetics Regulation separate from the EU. Only manufacturers, importers, distributors and Safety Assessors with an address in the UK / GB are permitted to place a cosmetic product directly in the UK / GB market. Thus, a non-UK / GB manufacturer / importer or distributor will be required to designate in writing an RP with an address in the UK / GB to assist in the sale / marketing of its cosmetic product in the UK.
+Brexit meant that the UK now has its own independent UK Cosmetics Regulation separate from the EU. Only manufacturers, importers, distributors and Safety Assessors with an address in the UK / GB are permitted to place a cosmetic product in the UK / GB market. Thus, a non-UK / GB manufacturer / importer or distributor will be required to designate in writing an RP with an address in the UK / GB to assist in the sale / marketing of its cosmetic product in the UK.
             </p>
         
         </div>
@@ -65,6 +65,10 @@ Brexit meant that the UK now has its own independent UK Cosmetics Regulation sep
 
         </p>
 
+        <p className="font-popping">
+        -  Designated Responsible Person
+
+        </p>
        
         <p className="font-popping">
         ➢  Cosmetic Product Safety Reports (CPSR)
@@ -87,11 +91,11 @@ Brexit meant that the UK now has its own independent UK Cosmetics Regulation sep
 
         </p>
         <p className="font-popping">
-        ➢  INCI Label preparation
+        ➢  INCI Label Preparation
 
         </p>
         <p className="font-popping">
-        ➢  Services to other cosmetics regulations, e.g. USA, Canada, Gulf States (e.g. SASO), ASEAN, etc.
+        ➢  Services to other Cosmetics Regulations, e.g. USA, Canada, Gulf States (e.g. SASO), ASEAN, etc.
 
         </p>
         <p className="font-popping">

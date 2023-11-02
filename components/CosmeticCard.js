@@ -64,14 +64,7 @@ const CosmeticCard = () => {
 
         },
         {
-            "id": 'physical',
-            "title": "Physical Testing",
-            "img": "newCosmeticCardsImg5.png",
-            "del": "            Support Services:            ",
-            "c1": "   E.g.",
-            "c2": "Microbiological Tests Preservative Challenge Test Stability / Packaging Compatibility Tests Others  ",
-
-                    "contact": " enquiries@iwocpssl.com  "
+            
          
 
 
@@ -130,31 +123,180 @@ const CosmeticCard = () => {
   return (
       <div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 py-4 px-4 ">
-              {
-                  cosmeticArd.map(card => (
-                      <div id={card?.id}   className=" rounded-md my-4 px-4 py-4">
-                          <h2 className='text-[26px]  text-[#333]  font-semibold py-3'>{card.title}</h2>
+    
+         
+             
+              
+
+
+       
+          
+    
+                      <div id="uk"   className=" rounded-md my-4 px-4 py-4">
+                          <h2 className='text-[26px]  text-[#333]  font-semibold py-3'>Responsible Person (RP)</h2>
                           <div  className="sm:flex   gap-2">
-                              <img className='sm:w-[272px] h-[360px]' src={`/images/${card.img}`} alt="" />
+                              <img className='sm:w-[272px] h-[360px]' src={`/images/newCosmeticCardsImg.png`} alt="" />
                               <div className="mt-4 pt-4 font-lato text-[15px] font-semibold sm:mt-0 ">
-                                  <p className='mb-4'>{card.del}</p>
-                                  <p className=''>{card?.uk}</p>
-                                  <p className=''>{card?.ue}</p>
-                                  <p className=''>{card?.ue1}</p>
+                                  <p className='mb-4'>Iwo CPSS Ltd as a Responsible Person will assist you to bring your product to the UK and EU markets.</p>
+                                  <p className=' py-4'> Want to sell in the United Kingdom (UK)?</p>
+                                  <p className=''>Want to sell in the European Union (EU)?</p>
+                                  <p className='py-4'>Yes.</p>
 
-                                  <p>{card?.yes}</p>
+                                  <p>You need a Responsible Person</p>
+                            
 
-                                  <p>{card.c1}</p>
-                                  <p>{card.c2}</p>
-                                  <p className='py-4'>{card?.then}</p>
-
-                                  <p className='my-4'>Contact :  <span className='text-[#0668E7]'> {card.contact}</span> </p>
+                                  <p className='my-4'>Contact :  <span className='text-[#0668E7]'>enquiries@iwocpssl.com</span> </p>
                               </div>
                               
                           </div>
-                </div>
-            ))
-              }
+              </div>
+
+              {/* 2 */}
+             
+        
+              
+              <div id="safty"   className=" rounded-md my-4 px-4 py-4">
+                          <h2 className='text-[26px]  text-[#333]  font-semibold py-3'>Cosmetic Product Safety Report (CPSR)</h2>
+                          <div  className="sm:flex   gap-2">
+                              <img className='sm:w-[272px] h-[360px]' src={`/images/newCosmeticCardsImg2.png`} alt="" />
+                              <div className="mt-4 pt-4 font-lato text-[15px] font-semibold sm:mt-0 ">
+                                  <p className='mb-4'>Iwo CPSS Ltd prepares CPSRs for  manufacturers, importers and distributors. For large, medium and small businesses</p>
+                                  <p className=' '> CPSR – Part A   </p>
+                          <p className=''> (Safety Information  )   </p>
+                          <p className='py-2'></p>
+                          <p className=''> CPSR - Part B   </p>
+                          <p className=''>    (Safety  Assessment )   </p>
+
+
+                            
+
+                                  <p className='my-4'>Contact :  <span className='text-[#0668E7]'>enquiries@iwocpssl.com</span> </p>
+                              </div>
+                              
+                          </div>
+              </div>
+              {/* 3 */}
+         
+        
+              
+              <div id="label"   className=" rounded-md my-4 px-4 py-4">
+                          <h2 className='text-[26px]  text-[#333]  font-semibold py-3'>Labelling / Packaging</h2>
+                          <div  className="sm:flex   gap-2">
+                              <img className='sm:w-[272px] h-[360px]' src={`/images/newCosmeticCardsImg3.png`} alt="" />
+                              <div className="mt-4 pt-4 font-lato text-[15px] font-semibold sm:mt-0 ">
+                                  <p className='mb-4'>Iwo CPSS Ltd reviews and / or prepares labels for your product to comply with cosmetics regulations.  </p>
+                                  <p className=' py-4'>  Label Preparation</p>
+        
+                          <p className=''>  Label Review </p>
+                                  <p className='my-4'>Packaging Advice   </p>
+                            
+                                  <p> Others</p>
+                                  <p className='mt-4'>Contact :  <span className='text-[#0668E7]'>enquiries@iwocpssl.com</span> </p>
+                              </div>
+                              
+                          </div>
+              </div>
+              {/* 4 */}
+             
+              <div id="file"   className=" rounded-md my-4 px-4 py-4">
+                          <h2 className='text-[26px]  text-[#333]  font-semibold py-3'>Product Information File (PIF)</h2>
+                          <div  className="sm:flex   gap-2">
+                              <img className='sm:w-[272px] h-[360px]' src={`/images/newCosmeticCardsImg4.png`} alt="" />
+                              <div className="mt-4 pt-4 font-lato text-[15px] font-semibold sm:mt-0 ">
+                                  <p className='mb-4'>  Iwo CPSS Ltd prepares your cosmetic product documentations (PIF) in readiness for compliance requests by UK / EU competent authorities.  </p>
+                                  <p className=' pt-4'> For a dossier of your cosmetic products  </p>
+                                  <p className=''>documentations </p>
+
+                            
+
+                                  <p className='my-4'>Contact :  <span className='text-[#0668E7]'>enquiries@iwocpssl.com</span> </p>
+                              </div>
+                              
+                          </div>
+              </div>
+              {/* 5 */}
+            
+
+              
+              <div id="physical"   className=" rounded-md my-4 px-4 py-4">
+                          <h2 className='text-[26px]  text-[#333]  font-semibold py-3'>Physical Testing</h2>
+                          <div  className="sm:flex   gap-2">
+                              <img className='sm:w-[272px] h-[360px]' src={`/images/newCosmeticCardsImg5.png`} alt="" />
+                              <div className="mt-4 pt-4 font-lato text-[15px] font-semibold sm:mt-0 ">
+                                  <p className='mb-4'>  Support Services: </p>
+                                  <p className='py-4'>E.g</p>
+
+                                  <p>Microbiological Tests Preservative Challenge Test Stability / Packaging Compatibility Tests Others  </p>
+                            
+
+                                  <p className='my-4'>Contact :  <span className='text-[#0668E7]'>enquiries@iwocpssl.com</span> </p>
+                              </div>
+                              
+                          </div>
+              </div>
+              {/* 6 */}
+           
+              <div id="knowledge"   className=" rounded-md my-4 px-4 py-4">
+                          <h2 className='text-[26px]  text-[#333]  font-semibold py-3'>Knowledge Gap Analysiss</h2>
+                          <div  className="sm:flex   gap-2">
+                              <img className='sm:w-[272px] h-[360px]' src={`/images/newCosmeticCardsImg6.png`} alt="" />
+                              <div className="mt-4 pt-4 font-lato text-[15px] font-semibold sm:mt-0 ">
+                          <p className='mb-4'>Need chemical / ingredient toxicological review? </p>
+                          <p className=' py-4'> Need interpretation of laboratory test reports?  </p>
+
+                                  <p className=' py-4'> E.g. Microbiological, Stability, Preservative Efficacy Test (PET), etc.   </p>
+
+                                  <p>Then: </p>
+                            
+
+                                  <p className='my-4'>Contact :  <span className='text-[#0668E7]'>enquiries@iwocpssl.com</span> </p>
+                              </div>
+                              
+                          </div>
+              </div>
+              {/* 7 */}
+          
+              <div id="other"   className=" rounded-md my-4 px-4 py-4">
+                          <h2 className='text-[26px]  text-[#333]  font-semibold py-3'>Notification</h2>
+                          <div  className="sm:flex   gap-2">
+                              <img className='sm:w-[272px] h-[360px]' src={`/images/newCosmeticCardsImg7.png`} alt="" />
+                              <div className="mt-4 pt-4 font-lato text-[15px] font-semibold sm:mt-0 ">
+                                  <p className='mb-4'>Iwo CPSS Ltd notifies your compliant products to the relevant notification portal. </p>
+                                  <p className=' py-4'> UK Submit Cosmetic Product  Notification <br /> (UK SCPN)</p>
+                                  <p className=''>EU Cosmetic Product <br /> Notification Portal <br /> (CPNP)</p>
+                                  <p className='py-4'>You need an EU/UK RP.</p>
+
+                            
+
+                                  <p className='my-4'>Contact :  <span className='text-[#0668E7]'>enquiries@iwocpssl.com</span> </p>
+                              </div>
+                              
+                          </div>
+              </div>
+              {/* 8 */}
+           
+          
+
+     
+<div id="pack"   className=" rounded-md my-4 px-4 py-4">
+                          <h2 className='text-[26px]  text-[#333]  font-semibold py-3'>Non-Cosmetic Chemical Consumer Products.</h2>
+                          <div  className="sm:flex   gap-2">
+                              <img className='sm:w-[272px] h-[360px]' src={`/images/newCosmeticCardsImg8.png`} alt="" />
+                              <div className="mt-4 pt-4 font-lato text-[15px] font-semibold sm:mt-0 ">
+                                  <p className='mb-4'> Want to sell your non-cosmetic, chemical consumer products in the United Kingdom (UK / GB)? Yes. </p>
+                            
+
+                                  <p className='py-4'>E.g. For General Product Safety Assessment - Chemical Toys - Chemical Household Products, e.g. Biocides, Detergents, etc. </p>
+                            
+
+                                  <p className='my-4'>Contact :  <span className='text-[#0668E7]'>enquiries@iwocpssl.com</span> </p>
+                              </div>
+                              
+                          </div>
+              </div>         
+              
+        
+              
               
           </div>
     </div>
