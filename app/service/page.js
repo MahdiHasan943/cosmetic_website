@@ -25,7 +25,7 @@ const index = () => {
             Want to sell your cosmetic product to other WORLD REGULATORY REGIMES                                                                                   
               Such as ASEAN, CANADA, SASO / GULF STATES, USA, etc.That is,  NON-UK / GB and NON-EU REGULATED COUNTRIES
                 
-              <span className="block">Yes</span>
+              <span className="block">Yes.</span>
                     
               <span className='block'>    
 
