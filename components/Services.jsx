@@ -10,7 +10,7 @@ const Services = () => {
       <motion.h2 variants={textVariant2} initial="hidden" whileInView="show" className="font-popping py-10 text-[36px] leading-[60px] text-center font-bold text-[#333333] ">
         Our Services
       </motion.h2>
-      {/* <CosmeticCard/> */}
+      <CosmeticCard/>
     </div>
   );
 };

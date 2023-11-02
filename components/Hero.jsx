@@ -26,7 +26,7 @@ const Hero = () => {
       </div>
     </motion.div>
 
-      <div className="py-6 mt-10 w-full rounded-md border  border-[#313131] px-4 ">
+      <div className="pt-6  mb-[50px] mt-[200px] w-full rounded-md border  border-[#313131] px-4 ">
 
              <p className="font-lato text-[24px] text-[]">IWO Cosmetic Products Safety Solutions Ltd. (Iwo CPSS Ltd.) is a consultancy business with specialism mainly in  the fields of regulation and safety for cosmetics and chemical consumer products.</p>
         <div className="text-center py-6">
