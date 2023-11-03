@@ -221,7 +221,7 @@ const CosmeticCard = () => {
               <div id="physical"   className=" rounded-md my-4 px-4 py-4">
                           <h2 className='text-[26px]  text-[#333]  font-semibold py-3'>Physical Testing</h2>
                           <div  className="sm:flex   gap-2">
-                              <img className='sm:w-[272px] h-[360px]' src={`/images/newCosmeticCardsImg5.png`} alt="" />
+                              <img className='' src={`/images/newCosmeticCardsImg5.png`} alt="" />
                               <div className="mt-4 pt-4 font-lato text-[15px] font-semibold sm:mt-0 ">
                                   <p className='mb-4'>  Support Services: </p>
                                   <p className='py-4'>E.g</p>
