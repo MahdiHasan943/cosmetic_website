@@ -239,7 +239,7 @@ const CosmeticCard = () => {
               <div id="knowledge"   className=" rounded-md my-4 px-4 py-4">
                           <h2 className='text-[26px]  text-[#333]  font-semibold py-3'>Knowledge Gap Analysiss</h2>
                           <div  className="sm:flex   gap-2">
-                              <img className='sm:w-[272px] h-[360px]' src={`/images/newCosmeticCardsImg6.png`} alt="" />
+                              <img className='sm:w-[282px] h-[300px]' src={`/images/newCosmeticCardsImg6.png`} alt="" />
                               <div className="mt-4 pt-4 font-lato text-[15px] font-semibold sm:mt-0 ">
                           <p className='mb-4'>Need chemical / ingredient toxicological review? </p>
                           <p className=' py-4'> Need interpretation of laboratory test reports?  </p>
