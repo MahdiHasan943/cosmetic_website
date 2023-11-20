@@ -544,7 +544,7 @@ Professional Memberships         </span>
                       />
                     </svg>
                   )}
-                  <span className="text-[20px] font-popping text-[#333333] font-bold">
+                  <span className="text-[20px] text-start font-popping text-[#333333] font-bold">
                   Social Media Address & Handles       </span>
                 </Disclosure.Button>
                 <Disclosure.Panel className="px-4 text-start sm:ml-[15px] font-semibold pt-4 pb-2  text-[#121212]">
