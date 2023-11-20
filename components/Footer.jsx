@@ -17,8 +17,74 @@ import Link from "next/link";
 import toast, { Toaster } from "react-hot-toast";
 
 const Footer = () => {
-  const accept = () => toast.success("you have accept all our Privacy Policy");
-  const decaline = () => toast.error("you have decline all our Privacy Policy");
+  const accept = () => toast.custom((t) => (
+    <div
+      className={`${
+        t.visible ? 'animate-enter' : 'animate-leave'
+      } max-w-md w-full bg-white sm:mt-[200px] shadow-lg rounded-lg pointer-events-auto flex ring-1 ring-black ring-opacity-5`}
+    >
+      <div className="flex-1 w-0 p-4">
+        <div className="flex items-center">
+          <div className="flex-shrink-0 pt-0.5">
+            <img
+              className="h-10 w-10 rounded-full"
+              src="./images/success.png"
+              alt=""
+            />
+          </div>
+          <div className="ml-3 flex-1">
+          <p className="mt-1 text-[18px] font-lato font-semibold text-[#121212]">
+            </p>
+            <p className="mt-1 text-[16px] font-lato font-semibold text-[#121212]">
+            You have accepted all our Privacy Policy
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="flex border-l border-gray-200">
+        <button
+          onClick={() => toast.dismiss(t.id)}
+          className="w-full border border-transparent rounded-none rounded-r-lg p-4 flex items-center justify-center text-sm font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  ))
+   
+  const decaline = () => toast.custom((t) => (
+    <div
+      className={`${
+        t.visible ? 'animate-enter' : 'animate-leave'
+      } max-w-md w-full bg-white sm:mt-[200px] shadow-lg rounded-lg pointer-events-auto flex ring-1 ring-black ring-opacity-5`}
+    >
+      <div className="flex-1 w-0 p-4">
+        <div className="flex items-center">
+          <div className="flex-shrink-0 pt-0.5">
+            <img
+              className="h-10 w-10 rounded-full"
+               src="./images/error.png"
+              alt=""
+            />
+          </div>
+          <div className="ml-3 flex-1">
+          <p className="mt-1 text-sm text-[#121212]">
+            </p>
+            <p className="mt-1 text-[16px] font-lato font-semibold text-[#121212]">
+            You have declined all our Privacy Policy            </p>
+          </div>
+        </div>
+      </div>
+      <div className="flex border-l border-gray-200">
+        <button
+          onClick={() => toast.dismiss(t.id)}
+          className="w-full border border-transparent rounded-none rounded-r-lg p-4 flex items-center justify-center text-sm font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  ))
 
   return (
     <motion.div
@@ -198,18 +264,26 @@ const Footer = () => {
 
               <div className="bg-[#F8F8F8]  mt-8 px-8  py-8 text-end">
                 <div className="flex justify-start sm:justify-end items-center gap-4">
+                <Popover.Button className="focus:border-none btn-border-none mt-[-30px] outline-none focus:outline-none border-none">
+
                   <button
                     onClick={() => decaline()}
                     className="py-3 accept  text-black mt-2 sm:mt-0 bg-white px-8 rounded-lg shadow-xl"
                   >
                     DECLINE
-                  </button>
+                    </button>
+                    </Popover.Button>
+
+                    <Popover.Button className="focus:border-none btn-border-none mt-[-30px] outline-none focus:outline-none border-none">
+
                   <button
                     onClick={() => accept()}
                     className="py-3 accept text-white mt-2 sm:mt-0 bg-black px-8 rounded-lg shadow-xl"
                   >
                     ACCEPT
-                  </button>
+                    </button>
+                    </Popover.Button>
+
                 </div>
               </div>
             </div>
