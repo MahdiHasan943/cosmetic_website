@@ -314,12 +314,16 @@ Iwo Cosmetic Products Safety Solutions Ltd. also produces cosmetic safety assess
                 </Disclosure.Button>
                 <Disclosure.Panel className="px-4 text-start sm:ml-[15px] pt-4 pb-2  text-[#121212]">
                   <p className="text-[15px] py-4">
-                  PHYSICAL TESTING
-NON-COSMETIC CHEMICAL CONSUMER PRODUCTS
-Other general safety services offered by Iwo Cosmetic Products Safety Solutions Ltd. include: <br />
-➢   General Product Safety Assessment <br />
-➢   Chemical Toys  <br />
-➢      Chemical Household Products, etc.
+                   
+                    E.g. 
+                    <br />
+                    ➢ Toxicological Review Of Chemicals / Ingredients
+      <br />
+      ➢  Interpretation Of Laboratory Test Reports
+    <br />
+    Others
+
+
                   </p>
                 
               
@@ -432,8 +436,7 @@ Others
                     </svg>
                   )}
                   <span className="text-[20px] col-span-10 text-left font-popping text-[#333333] font-bold">
-                  Other general safety services offered by Iwo Cosmetic Products Safety Solutions Ltd. include
-         </span>
+                  Other General Safety Services Offered includes         </span>
                 </Disclosure.Button>
                 <Disclosure.Panel className="px-4 text-start sm:ml-[15px] font-semibold pt-4 pb-2  text-[#121212]">
                   <p className="text-[15px] py-4">
