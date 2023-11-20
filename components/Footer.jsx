@@ -13,12 +13,16 @@ import {
   BsXLg
 } from "react-icons/bs";
 import { Popover } from "@headlessui/react";import Link from 'next/link'
+import toast, { Toaster } from 'react-hot-toast';
 
 const Footer = () => {
+    const accept = () => toast.success('you have accept all our Privacy Policy');
+    const decaline = () => toast.error('you have decline all our Privacy Policy');
+
 
     return (
         
-      <motion.div className='sm:px-16  px-4' variants={footerVariants} initial="hidden" whileInView="show">
+      <motion.div className='sm:px-16 relative overflow-hidden px-4' variants={footerVariants} initial="hidden" whileInView="show">
           <Popover.Group className="relative">
  <Popover>     
           <div  className="py-20  ">
@@ -98,19 +102,19 @@ const Footer = () => {
           <div className="py-10 fBorder ">
               <p className='font-volkhov leading-[30px] text-[18px]  tracking-wider text-center'>©2023 - Copyright IWO Cosmetic Products Safety Solutions Ltd.  </p>
                     </div>
-                    <Popover.Panel className="absolute  top-[50%] lg:mt-[-200px] mx-auto Left left-[50%] w-full  sm:w-[auto] z-10 ">
-                <div className="downloadBox h-[auto] w-[95%] py-12 px-12 mx-auto  sm:w-[600px]  rounded-lg">
+                    <Popover.Panel className="absolute py-8  w-full h-full flex justify-center items-center top-0 left-0 z-10 ">
+                <div className="downloadBox h-[auto]  bg-[#f6f6f6] w-[95%] py-6 px-12 mx-auto  sm:w-[600px]  rounded-lg">
                 <div className="flex justify-between items-center">
-                  <h3 className="DOWNLOAD pt-4 pb-12 flex items-center gap-10">
+                  <h3 className="text-[black] pt-4 pb-12 flex items-center gap-10">
                   Privacy Policy
 
                     </h3>
-                    <Popover.Button className="focus:border-none btn-border-none  outline-none focus:outline-none border-none">
+                    <Popover.Button className="focus:border-none btn-border-none mt-[-30px] outline-none focus:outline-none border-none">
 
-                <BsXLg className="text-[gray] text-[25px]"></BsXLg>
+                <BsXLg className="text-[black] text-[25px]"></BsXLg>
               </Popover.Button>
                </div>
-                  <p className="text-[#6A6A65] text-[13px] ">
+                  <p className="text-[black] text-[14px] sm:text-[16px] ">
                     This is place holder text. The basic dialog for modals
                     should contain only valuable and relevant information.
                     Simplify dialogs by removing unecessary elements or content
@@ -122,19 +126,13 @@ const Footer = () => {
                     Simplify dialogs by removing unecessary elements or content
                     that does not support user tasks. If you find the number of
                     required elements for your design are making the dialog
-                    excessively large, then try a different design solution.
-                    This is place holder text. The basic dialog for modals
-                    should contain only valuable and relevant information.
-                    Simplify dialogs by removing unecessary elements or content
-                    that does not support user tasks. If you find the number of
-                    required elements for your design are making the dialog
-                    excessively large, then try a different design solution.{" "}
+                   
                   </p>
 
-                  <div className="bg-[#F8F8F8] mt-8 px-8  py-8 text-end">
-                    <div className="">
-                      <button className="py-6 accept  text-black mt-2 sm:mt-0 bg-white px-8 rounded-lg shadow-xl">DECLINE</button>
-                      <button className="py-6 accept text-white mt-2 sm:mt-0 bg-black ml-8 px-8 rounded-lg shadow-xl">ACCEPT</button>
+                  <div className="bg-[#F8F8F8]  mt-8 px-8  py-8 text-end">
+                    <div className="sm:flex justify-end items-center gap-4">
+                      <button  onClick={()=>decaline()} className="py-3 accept  text-black mt-2 sm:mt-0 bg-white px-8 rounded-lg shadow-xl">DECLINE</button>
+                      <button onClick={()=>accept()}     className="py-3 accept text-white mt-2 sm:mt-0 bg-black px-8 rounded-lg shadow-xl">ACCEPT</button>
 
                     </div>
 
@@ -145,7 +143,8 @@ const Footer = () => {
               </Popover.Panel>
                     </Popover>
 
-</Popover.Group>   
+            </Popover.Group>   
+            <Toaster/>
             </motion.div>
            
   )

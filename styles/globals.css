@@ -1,3 +1,21 @@
+/* font-thin: This class sets the font-weight to 100.
+font-extralight: This class sets the font-weight to 200.
+font-light: This class sets the font-weight to 300.
+font-normal: This class sets the font-weight to 400.
+font-medium: This class sets the font-weight to 500.
+font-semibold: This class sets the font-weight to 600.
+font-bold: This class sets the font-weight to 700.
+font-extrabold: This class sets the font-weight to 800.
+font-black: This class sets the font-weight to 900.
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Foldit', cursive;
+
+font-family: 'Volkhov', serif;
+*/ 
 
 @import url("https://fonts.googleapis.com/css2?family=Foldit:wght@100;200;300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,700;0,900;1,100;1,700;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
@@ -44,7 +62,7 @@ a {
     justify-content: space-between;
     height: auto;
     width: 100%;
-    /* background-color: white; */
+    background-color: white;
   }
   .nav__link {
     font-family: "Poppins", sans-serif;
@@ -79,7 +97,7 @@ a {
   @media screen and (max-width: 768px) {
     .nav {
       display: flex;
-      
+background: none;
     }
     .menu_img{
       display: block;
@@ -145,6 +163,7 @@ a {
       flex-direction: column;
       justify-content: center;
       padding-bottom: 20px;
+
       gap: 30px;
       transform: translateX(100%) !important;
       transition: 0.2s ease-in;
