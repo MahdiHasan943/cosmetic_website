@@ -66,7 +66,7 @@ const Hero = () => {
                   <img className="mx-auto  sm:my-5 md:my-auto w-[300px!important]" src="/images/clearnut.png" alt="women" />
                   <img className="mx-auto w-[235px] " src="/images/newThreeH.png" alt="beauty girl" />
 
-                  <div className="absolute  bottom-[-50px] right-0 z-[9999] ">
+                  <div className="absolute bottom-[-120px]  sm:bottom-[-50px] right-0 z-[9999] ">
         {/* <img className="hidden  sm:block" src="/./images/afterherotext.png" alt="" /> */}
           <p className=" font-semibold  italic  text-[#595959]  font-lato text-[22px]"> Your products matter - here for their safety and regulatory requirements</p>
         </div>

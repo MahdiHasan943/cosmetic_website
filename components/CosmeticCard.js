@@ -122,7 +122,7 @@ const CosmeticCard = () => {
 
   return (
       <div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 py-4 px-4 ">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 py-4 px-4 ">
     
          
              

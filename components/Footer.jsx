@@ -103,7 +103,7 @@ const Footer = () => {
               <p className='font-volkhov leading-[30px] text-[18px]  tracking-wider text-center'>©2023 - Copyright IWO Cosmetic Products Safety Solutions Ltd.  </p>
                     </div>
                     <Popover.Panel className="absolute py-8  w-full h-full flex justify-center items-center top-0 left-0 z-10 ">
-                <div className="downloadBox h-[auto]  bg-[#f6f6f6] w-[95%] py-6 px-12 mx-auto  sm:w-[600px]  rounded-lg">
+                <div className="downloadBox h-[auto]  bg-[#f6f6f6] w-[95%]  pt-4 px-12 mx-auto  sm:w-[600px]  rounded-lg">
                 <div className="flex justify-between items-center">
                   <h3 className="text-[black] pt-4 pb-12 flex items-center gap-10">
                   Privacy Policy
