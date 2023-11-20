@@ -184,7 +184,7 @@ const CosmeticCard = () => {
                           <div  className="sm:flex   gap-2">
                               <img className='sm:w-[272px] h-[360px]' src={`/images/newCosmeticCardsImg3.png`} alt="" />
                               <div className="mt-4 pt-4 font-lato text-[15px] font-semibold sm:mt-0 ">
-                                  <p className='mb-4'>Iwo CPSS Ltd reviews and / or prepares labels for your product to comply with cosmetics regulations.  </p>
+                                  <p className='mb-4'>Iwo CPSS Ltd reviews and / or prepares labels for your product to comply with  Cosmetics Regulations.  </p>
                                   <p className=' py-4'>  Label Preparation</p>
         
                           <p className=''>  Label Review </p>

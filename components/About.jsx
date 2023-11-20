@@ -66,7 +66,7 @@ Brexit meant that the UK now has its own independent UK Cosmetics Regulation sep
         </p>
 
         <p className="font-popping">
-        -  Designated Responsible Person
+        ➢   Designated Responsible Person
 
         </p>
        
