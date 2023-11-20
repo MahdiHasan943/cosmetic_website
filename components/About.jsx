@@ -10,11 +10,11 @@ const About = () => {
       <motion.h2 variants={textVariant2} initial="hidden" whileInView="show" className="font-popping py-10 text-[36px] leading-[60px] text-center font-bold text-[#333333] ">
         About Us
         </motion.h2>
-        <p className="font-popping text-[#333333] text-[22px] leading-[30px]  ">
-            <span className="font-bold pr-2">Iwo Cosmetic Products Safety Solutions Ltd.</span> 
+        <p className="font-popping text-[#333333] xl:w-[1272px] text-[22px] leading-[30px]  ">
+            <span className="font-bold pr-2 ">Iwo Cosmetic Products Safety Solutions Ltd.</span> 
 
           
-       is a consultancy business with specialism mainly in the fields of regulation and safety of cosmetics and chemical consumer products.
+       is a consultancy business with specialism mainly in the fields of regulation and  safety of cosmetics and chemical consumer products.
 
             </p>
             
@@ -36,8 +36,8 @@ Brexit meant that the UK now has its own independent UK Cosmetics Regulation sep
             </p>
         
         </div>
-          <div className=" w-[300px] justify-center">
-            <img className="w-[270px] h-[357px]" src="images/flower.jpg" alt="" />
+          <div className=" w-[300px]  justify-center">
+            <img className="w-full mx-auto h-[357px]" src="images/flower.jpg" alt="" />
           {/* <div className="mx-auto  ">
               <div className="bg-[#eceff4] rounded-xl mb-5 md:mb-0  sm:bg-none ">
               <img
