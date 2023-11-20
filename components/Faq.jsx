@@ -11,10 +11,10 @@ const Faq = () => {
         Help/FAQ
       </motion.h2>
 
-      <p className="text-center font-popping text-[20px] leading-[40px] text-[#595959] font-bold">
+      {/* <p className="text-center font-popping text-[20px] leading-[40px] text-[#595959] font-bold">
         Your products matter - here for their safety and regulatory 
         requirements
-      </p>
+      </p> */}
 
       <div className="w-full  sm:px-4 pt-16">
         <div className="mx-auto  lg:w-[53%] rounded-2xl bg-white p-2">

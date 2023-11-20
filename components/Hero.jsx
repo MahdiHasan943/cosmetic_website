@@ -5,7 +5,7 @@ import { textVariant2 } from "@/utils/motion";
 const Hero = () => {
   return (
     <div className="relative pb-10 sm:px-16  px-4">
-  <motion.div id="#hero" variants={textVariant2} initial="hidden" whileInView="show" className="lg:flex overflow-hidden justify-between  gap-10 items-center">
+  <motion.div id="#hero" variants={textVariant2} initial="hidden" whileInView="show" className="lg:flex relative pb-[150px] overflow-hidden justify-between  gap-10 items-center">
       <div className="py-10">
      
           <div className="h-[500px] md:h-0">
@@ -17,14 +17,20 @@ const Hero = () => {
 
           <div className="">
               <div className="md:flex relative gap-5">
-                  <img className="absolute star" src="/images/start.webp" alt="" />
-                  <img className="mx-auto mb-[50px] mt-auto  " src="/images/newoneH1.png" alt="women" />
-                  <img className="mx-auto my-5 md:my-auto w-[200px!important]" src="/images/newtowH2.png" alt="women" />
+                  <img className="absolute z-[999] star" src="/images/start.webp" alt="" />
+                  <img className="mx-auto mb-[-60px] relative z-50 sm:mb-[10px] mt-auto w-[240px] " src="/images/newoneH1.png" alt="women" />
+                  <img className="mx-auto  sm:my-5 md:my-auto w-[300px!important]" src="/images/clearnut.png" alt="women" />
                   <img className="mx-auto w-[235px] " src="/images/newThreeH.png" alt="beauty girl" />
 
-              </div>
-      </div>
-    </motion.div>
+          </div>
+        </div>
+        <img className="absolute hidden  sm:block bottom-0 right-0 z-[9999] " src="/./images/afterherotext.png" alt="" />
+          <p className="absolute block font-semibold  sm:hidden bottom-0 right-0 z-[9999] text-[#595959]  font-lato text-[22px]"> Your products matter - here for their safety and regulatory requirements</p>
+        
+      </motion.div>
+      
+
+
 
       <div className="pt-6  mb-[50px] mt-[200px] w-full rounded-md border  border-[#313131] px-4 ">
 

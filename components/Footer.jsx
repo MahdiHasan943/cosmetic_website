@@ -51,7 +51,7 @@ const Footer = () => {
                       </div>
                       <p className='font-lato text-[16px]'> Leicester, United Kingdom</p>
                       <div className="py-4">
-                      <img className='inline' src="/images/mail.svg" alt="mail" /> <span className='font-lato text-[16px] '>Cookie Policy</span>
+                      <img className='inline' src="/images/mail.svg" alt="mail" /> <span className='font-lato text-[16px] '>Privacy Policy</span>
 
                       </div>
 

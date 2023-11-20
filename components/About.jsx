@@ -11,7 +11,7 @@ const About = () => {
         About Us
         </motion.h2>
         <p className="font-popping text-[#333333] text-[22px] leading-[30px]  ">
-            <span className="font-bold pr-2">Iwo Cosmetic Products Safety Solutions Ltd .</span> 
+            <span className="font-bold pr-2">Iwo Cosmetic Products Safety Solutions Ltd.</span> 
 
           
        is a consultancy business with specialism mainly in the fields of regulation and safety of cosmetics and chemical consumer products.

@@ -14,7 +14,7 @@ const ProfileBox = () => {
               <p className='font-popping text-[16px] py-4  '>click the button and follow the instruction to contact us</p>
 
               <div className="w-full">
-                <a href="#Contact"><img className='ml-auto' src="/images/clickHere.png" alt="" /></a> 
+                <a href="#Contact"><img className='ml-auto h-[55px]' src="/images/clickHere.png" alt="" /></a> 
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@ const ProfileBox = () => {
               <p className='font-popping text-[16px] py-4  '>click the button to view our range of services we offer to our customers and choose how we can help you.</p>
 
               <div className="w-full">
-                <Link href={'/service'}>                <img className='ml-auto' src="/images/clickHere.png" alt="" />
+                <Link href={'/service'}>                <img className='ml-auto  h-[55px]' src="/images/clickHere.png" alt="" />
  </Link>
               </div>
             </div>
