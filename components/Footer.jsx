@@ -78,7 +78,7 @@ const Footer = () => {
            </div>
           </div>
           <div className="py-10 fBorder ">
-              <p className='font-volkhov leading-[30px] text-[18px]  tracking-wider text-center'>©2023 - Copyright IWO Cosmetic Product Safety Solution Ltd. </p>
+              <p className='font-volkhov leading-[30px] text-[18px]  tracking-wider text-center'>©2023 - Copyright IWO Cosmetic Products Safety Solutions Ltd.  </p>
           </div>
     </motion.div>
   )

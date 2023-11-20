@@ -129,7 +129,7 @@ function Nav() {
     <motion.nav variants={navVariants} initial="hidden" whileInView='show'
     
     className={
-      icon === "nav__toggler" ? `  sm:px-16 px-6 py-5 sm:py-10 shadow-none w-[100vw]  md:z-[999] nav` : ` sm:px-16 px-6 py-5 sm:py-10 shadow-none w-[100vw] z-[999999999999!important] md:z-[999] nav`
+      icon === "nav__toggler" ? `  sm:px-16 px-6 py-5 sm:py-10 shadow-none w-[100vw] z-[999999]  md:z-[999] nav` : ` sm:px-16 px-6 py-5 sm:py-10 shadow-none w-[100vw] z-[999999999999!important] md:z-[999] nav`
     }
       >
       <div className={`flex w-full items-center  md:justify-end`}>
@@ -161,7 +161,7 @@ function Nav() {
      
       </div>
 
-      <div onClick={navToggle} className={icon}>
+      <div  onClick={navToggle} className={`${icon} `}>
         <div className="line1"></div>
         <div className="line2"></div>
         <div className="line3"></div>
