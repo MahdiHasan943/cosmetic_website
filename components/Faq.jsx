@@ -108,7 +108,7 @@ notify your product via the UK Submit Cosmetic Product Notification (SCPN) Porta
                   <p className="text-[15px] py-4">
                   Are you a Manufacturer based outside the EU and wish to sell your product in the EU market, Iwo CPSS Ltd. collaborates with RP colleagues in Europe who will work closely with you advising on 
 compliance of your product with the relevant obligations set out in the EU Cosmetics Regulation. The goal is to help you notify your product via the EU Cosmetic Product Notification Portal (CPNP) for sale in the EU market.
-.
+
                   </p>
                 </Disclosure.Panel>
               </>
@@ -321,7 +321,7 @@ Iwo Cosmetic Products Safety Solutions Ltd. also produces cosmetic safety assess
       <br />
       ➢  Interpretation Of Laboratory Test Reports
     <br />
-    Others
+    ➢ Others
 
 
                   </p>
