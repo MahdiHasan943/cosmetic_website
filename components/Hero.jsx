@@ -68,7 +68,7 @@ const Hero = () => {
 
                   <div className="absolute bottom-[-120px] w-full  sm:bottom-[-50px] left-0  z-[9999] ">
         {/* <img className="hidden  sm:block" src="/./images/afterherotext.png" alt="" /> */}
-          <p className=" font-semibold  sm:text-center italic  text-[#595959]  font-lato text-[18px]"> Your products matter - here for their safety and regulatory requirements</p>
+          <p className=" font-semibold  sm:text-center italic  text-[#595959]  font-lato text-[21px]"> Your products matter - here for their safety and regulatory requirements</p>
         </div>
           </div>
         </div>
