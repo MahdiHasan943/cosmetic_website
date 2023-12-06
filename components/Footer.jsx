@@ -88,7 +88,7 @@ const Footer = () => {
 
   return (
     <motion.div
-      className="sm:px-16 pt-[100px] pb-[30px] relative  px-4"
+      className="sm:px-16 pt-[100px] relative  px-4"
       variants={footerVariants}
       initial="hidden"
       whileInView="show"
@@ -225,12 +225,13 @@ const Footer = () => {
             </div>
             <div className=""></div>
           </div>
-          <div className="py-10 fBorder ">
+          <div className="h-[100px] flex justify-center items-center fBorder ">
             <p className="font-volkhov leading-[30px] text-[18px]  tracking-wider text-center">
               ©2023 - Copyright IWO Cosmetic Products Safety Solutions Ltd.{" "}
             </p>
           </div>
-          <Popover.Panel className="absolute py-8  w-full h-full flex justify-center items-center top-[100px] sm:top-[-50px] left-0 z-10 ">
+          {/* top-[100px]  */}
+          <Popover.Panel className="absolute py-8  w-full h-full flex justify-center items-center bottom-0 sm:top-[-50px] left-0 z-10 ">
             <div className="downloadBox h-[auto]  bg-[#f6f6f6] shadow-2xl  w-[100%]  pt-4 px-2 sm:px-12 mx-auto  sm:w-[800px]  rounded-lg">
               <div className="flex justify-between items-center">
                 <h3 className="text-[black] pt-4 pb-12 flex items-center gap-10">
